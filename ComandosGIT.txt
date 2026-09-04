@@ -1,0 +1,22 @@
+﻿CLONAR EL REPOSITORIO
+----------------------------------------------
+
+git clone https://github.com/gcoronelc/UNI-FIIS-2025-2-SI401-V.git
+
+
+
+ACTUALIZAR EL REPOSITORIO
+----------------------------------------------
+
+git pull
+
+
+
+DESCARTAR MODIFICACIONES
+(borrar tus cambios)
+----------------------------------------------
+
+git checkout .
+
+
+
