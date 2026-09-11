@@ -1,0 +1,35 @@
+Se necesita un sistema informático para llevar el control de las elecciones a presidente de la republica.
+Cada plancha esta conformada por 3 integrantes: presidente, 1er vicepresidente y 2do vicepresidente.
+
+Requerimiento Funcional 1
+==========================
+
+Como secretario de procesos electorales, quiero poder registrar la plancha electoral para que pueda participar en las elecciones.
+
+Criterios de aceptación:
+1. Los candidatos deben ser mayor de 18 años.
+2. Un candidato debe ser de genero femenino.
+3. No deben tener condenas judiciales.
+
+
+Requerimientos NO Funcionales
+===================================
+1. El sistema debe estar disponible las 24 horas del día todos los días del año.
+2. El sistema debe de ser seguro ante ataques informáticos.
+3. Los usuarios debe autenticarse para poder ingresar al sistema
+4. El sistema debe procesar las transacciones en menos de 30 segundos
+5. El usuario debe poder terminar un registro en menos de 3 minutos
+6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
