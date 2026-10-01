@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prototipo – Flujo de cuestionario</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sky:#5BC0EB; --sky-deep:#0F6A96; --sky-soft:#E3F4FC; --sky-mid:#B9E3F5;
+  --ink:#12313F; --muted:#547282; --paper:#FFFFFF; --bg:#CFEAF7; --star:#F5B82E; --ok:#1E9E6A; --err:#C0392B;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D2230;--paper:#132F40;--ink:#E6F5FC;--muted:#9FC2D3;--sky-soft:#1A3E52;--sky-mid:#245770;--sky-deep:#8FD6F5}}
+:root[data-theme="dark"]{--bg:#0D2230;--paper:#132F40;--ink:#E6F5FC;--muted:#9FC2D3;--sky-soft:#1A3E52;--sky-mid:#245770;--sky-deep:#8FD6F5}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;gap:16px;padding:16px}
+.flow{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:420px}
+.flow button{border:2px solid var(--sky);background:transparent;color:var(--sky-deep);font:700 .85rem Nunito,sans-serif;padding:6px 12px;border-radius:999px;cursor:pointer}
+.flow button[aria-current="step"]{background:var(--sky);color:#06364d}
+.flow button:disabled{opacity:.4;cursor:not-allowed}
+.phone{width:100%;max-width:380px;height:720px;max-height:calc(100vh - 90px);min-height:560px;background:var(--paper);border-radius:32px;border:2px solid var(--sky);box-shadow:0 10px 30px rgba(15,106,150,.25);overflow:hidden;display:flex;flex-direction:column;position:relative}
+header{background:var(--sky);color:#06364d;padding:14px 18px;display:flex;align-items:center;gap:10px;min-height:56px}
+header h1{font-size:1.1rem;margin:0;font-weight:800;flex:1}
+.back{background:rgba(255,255,255,.55);border:0;border-radius:50%;width:34px;height:34px;font-size:1.1rem;cursor:pointer;color:#06364d}
+.back[hidden]{display:none}
+main{flex:1;overflow-y:auto;position:relative}
+.screen{display:none;padding:20px 18px 24px;animation:in .25s ease}
+.screen.active{display:block}
+@keyframes in{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.screen{animation:none}.check path{animation:none!important;stroke-dashoffset:0!important}}
+h2{font-size:1.35rem;margin:0 0 6px}
+p{line-height:1.5;margin:0 0 12px;color:var(--muted)}
+.ph{background:var(--sky-soft);border:2px dashed var(--sky);border-radius:16px;display:grid;place-items:center;color:var(--sky-deep);margin-bottom:14px}
+.ph svg{width:64px;height:64px;opacity:.8}
+.ph.hero{height:180px}.ph.banner{height:130px}
+label{display:block;font-weight:700;font-size:.9rem;margin:12px 0 4px}
+input,textarea{width:100%;font:inherit;color:var(--ink);background:var(--paper);border:2px solid var(--sky-mid);border-radius:12px;padding:11px 12px}
+input:focus,textarea:focus,button:focus-visible{outline:3px solid var(--sky-deep);outline-offset:2px;border-color:var(--sky-deep)}
+textarea{resize:vertical;min-height:84px}
+.btn{width:100%;margin-top:16px;background:var(--sky-deep);color:#fff;border:0;border-radius:14px;padding:13px;font:800 1rem Nunito,sans-serif;cursor:pointer}
+.btn.alt{background:var(--sky-soft);color:var(--sky-deep);border:2px solid var(--sky)}
+.btn:active{transform:scale(.98)}
+.err{color:var(--err);font-size:.85rem;min-height:1.2em;margin-top:6px}
+/* Home */
+.search{display:flex;gap:8px;margin-bottom:16px}
+.search input{border-radius:999px}
+.profile{text-align:center;position:relative}
+.avatar{width:96px;height:96px;border-radius:50%;background:var(--sky);margin:0 auto 8px;display:grid;place-items:center;font-size:2.2rem;font-weight:800;color:#06364d;border:4px solid var(--sky-mid)}
+.chip{background:var(--sky-soft);color:var(--sky-deep);border:2px solid var(--sky);border-radius:999px;padding:4px 14px;font:700 .85rem Nunito,sans-serif;cursor:pointer}
+.edit{display:flex;gap:6px;justify-content:center;margin-top:8px}
+.edit input{max-width:200px;padding:7px 10px}
+.help{position:absolute;right:0;bottom:-6px;width:36px;height:36px;border-radius:8px;border:2px solid var(--sky-deep);background:var(--paper);color:var(--sky-deep);font-weight:800;cursor:pointer}
+.tip{background:var(--sky-deep);color:#fff;border-radius:12px;padding:10px 12px;font-size:.88rem;margin-top:14px}
+.tip[hidden]{display:none}
+.card{background:var(--sky-soft);border-radius:16px;padding:14px;margin-top:14px;border-left:6px solid var(--sky)}
+.card strong{display:block;margin-bottom:2px}
+.lines i{display:block;height:9px;border-radius:5px;background:var(--sky-mid);margin:8px 0}
+dl{margin:0}dt{font-weight:700;font-size:.85rem;color:var(--muted)}dd{margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--sky-mid);font-weight:600}
+/* Estrellas */
+.stars{display:flex;gap:6px;margin:6px 0 4px}
+.stars button{background:none;border:0;font-size:2rem;line-height:1;cursor:pointer;color:var(--sky-mid);padding:2px}
+.stars button.on{color:var(--star)}
+.qhelp{font-size:.82rem;color:var(--muted)}
+.count{text-align:right;font-size:.78rem;color:var(--muted)}
+/* Envío */
+.done{text-align:center;padding-top:40px}
+.check{width:120px;height:120px}
+.check circle{fill:var(--sky-soft);stroke:var(--sky);stroke-width:4}
+.check path{fill:none;stroke:var(--ok);stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:80;stroke-dashoffset:80;animation:draw .6s .15s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.summary{text-align:left;margin-top:18px}
+</style>
+</head>
+<body>
+<nav class="flow" id="flow" aria-label="Flujo del prototipo"></nav>
+
+<div class="phone" role="application" aria-label="Prototipo de aplicación móvil">
+  <header><button class="back" id="back" aria-label="Volver" hidden>‹</button><h1 id="title">Ingreso</h1></header>
+  <main>
+    <!-- 1 Login -->
+    <section class="screen active" id="login">
+      <div class="ph hero" role="img" aria-label="Ilustración de bienvenida">
+        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><rect x="6" y="10" width="52" height="44" rx="6"/><path d="M6 44l16-16 14 14 8-8 14 14"/><circle cx="44" cy="22" r="5"/></svg>
+      </div>
+      <h2>Bienvenido</h2>
+      <p>Ingresa con tu correo para responder tus cuestionarios.</p>
+      <form id="loginForm" novalidate>
+        <label for="email">Correo electrónico</label>
+        <input id="email" type="email" placeholder="nombre@correo.com" autocomplete="username">
+        <label for="pass">Contraseña</label>
+        <input id="pass" type="password" placeholder="Mínimo 4 caracteres" autocomplete="current-password">
+        <div class="err" id="loginErr" role="alert"></div>
+        <button class="btn" type="submit">Ingresar</button>
+      </form>
+    </section>
+
+    <!-- 2 Home -->
+    <section class="screen" id="home">
+      <div class="search"><input id="q" type="search" placeholder="Buscar cuestionarios" aria-label="Buscar"></div>
+      <div class="profile">
+        <div class="avatar" id="avatar">G</div>
+        <h2 id="hello">Hola, Gustavo</h2>
+        <button class="chip" id="editBtn" type="button">Editar nombre</button>
+        <div class="edit" id="editBox" hidden>
+          <input id="nameIn" aria-label="Nombre" maxlength="30">
+          <button class="chip" id="saveName" type="button">Guardar</button>
+        </div>
+        <button class="help" id="helpBtn" type="button" aria-label="Ayuda" aria-expanded="false">?</button>
+      </div>
+      <div class="tip" id="tip" hidden>Desde aquí puedes editar tu nombre, revisar tu cuenta y responder el cuestionario pendiente.</div>
+      <div class="card" data-item="Satisfacción del servicio"><strong>Satisfacción del servicio</strong><span class="qhelp">Pendiente · 2 preguntas</span><div class="lines"><i></i><i style="width:70%"></i></div></div>
+      <div class="card" data-item="Experiencia de uso"><strong>Experiencia de uso</strong><span class="qhelp">Pendiente · 2 preguntas</span></div>
+      <div id="noRes" class="qhelp" hidden style="margin-top:14px">No hay cuestionarios con ese nombre. Prueba con otra palabra.</div>
+      <button class="btn" data-go="cuenta">Ver mi cuenta</button>
+    </section>
+
+    <!-- 3 Cuenta -->
+    <section class="screen" id="cuenta">
+      <div class="ph banner" role="img" aria-label="Imagen de cuenta"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><circle cx="32" cy="24" r="10"/><path d="M12 54c3-12 11-18 20-18s17 6 20 18"/></svg></div>
+      <h2>Mi cuenta</h2>
+      <p>Estos datos se usan para identificar tus respuestas.</p>
+      <dl>
+        <dt>Nombre</dt><dd id="cName">Gustavo</dd>
+        <dt>Correo</dt><dd id="cMail">—</dd>
+        <dt>Estado</dt><dd>Activa · 1 cuestionario pendiente</dd>
+      </dl>
+      <button class="btn" data-go="preguntas">Ver cuestionario pendiente</button>
+    </section>
+
+    <!-- 4 Preguntas -->
+    <section class="screen" id="preguntas">
+      <h2>Satisfacción del servicio</h2>
+      <p>Tu opinión nos ayuda a mejorar.</p>
+      <div class="ph banner" role="img" aria-label="Imagen del cuestionario"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><rect x="6" y="10" width="52" height="44" rx="6"/><path d="M6 44l16-16 14 14 8-8 14 14"/><circle cx="44" cy="22" r="5"/></svg></div>
+      <p>Responderás una valoración con estrellas y dos preguntas abiertas. Toma menos de 3 minutos.</p>
+      <div class="lines"><i></i><i style="width:80%"></i><i style="width:55%"></i></div>
+      <button class="btn" data-go="cuestiones">Comenzar</button>
+    </section>
+
+    <!-- 5 Cuestiones -->
+    <section class="screen" id="cuestiones">
+      <h2>Tu valoración</h2>
+      <p>¿Qué tan satisfecho estás con el servicio?</p>
+      <div class="stars" role="radiogroup" aria-label="Valoración de 1 a 5 estrellas" id="stars"></div>
+      <div class="err" id="starErr" role="alert"></div>
+      <label for="a1">1. ¿Qué fue lo mejor de tu experiencia?</label>
+      <textarea id="a1" maxlength="300" placeholder="Escribe tu respuesta"></textarea>
+      <div class="count" id="c1">0 / 300</div>
+      <label for="a2">2. ¿Qué deberíamos mejorar?</label>
+      <textarea id="a2" maxlength="300" placeholder="Escribe tu respuesta"></textarea>
+      <div class="count" id="c2">0 / 300</div>
+      <button class="btn" id="saveBtn" type="button">Guardar</button>
+    </section>
+
+    <!-- 6 Envío -->
+    <section class="screen" id="envio">
+      <div class="done">
+        <svg class="check" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54"/><path d="M36 62l18 18 32-38"/></svg>
+        <h2>Guardado</h2>
+        <p>Tus respuestas se enviaron correctamente.</p>
+      </div>
+      <div class="card summary"><strong>Resumen</strong><span id="sumStars"></span><div class="qhelp" id="sumText"></div></div>
+      <button class="btn" data-go="home">Volver al inicio</button>
+      <button class="btn alt" id="restart" type="button">Cerrar sesión</button>
+    </section>
+  </main>
+</div>
+
+<script>
+(function(){
+  var screens=[
+    {id:"login",label:"Login",title:"Ingreso"},
+    {id:"home",label:"Home",title:"Inicio"},
+    {id:"cuenta",label:"Cuenta",title:"Cuenta"},
+    {id:"preguntas",label:"Preguntas",title:"Preguntas"},
+    {id:"cuestiones",label:"Cuestiones",title:"Cuestionario"},
+    {id:"envio",label:"Envío",title:"Envío"}
+  ];
+  var state={logged:false,name:"Gustavo",mail:"",rating:0,current:"login",sent:false};
+  var $=function(id){return document.getElementById(id)};
+  var flow=$("flow");
+
+  screens.forEach(function(s){
+    var b=document.createElement("button");
+    b.type="button";b.textContent=s.label;b.dataset.id=s.id;
+    b.addEventListener("click",function(){go(s.id)});
+    flow.appendChild(b);
+  });
+
+  function go(id){
+    if(id!=="login"&&!state.logged)return;
+    if(id==="envio"&&!state.sent)return;
+    state.current=id;
+    screens.forEach(function(s){
+      $(s.id).classList.toggle("active",s.id===id);
+      if(s.id===id)$("title").textContent=s.title;
+    });
+    $("back").hidden=(id==="login");
+    refresh();
+    document.querySelector("main").scrollTop=0;
+  }
+  function refresh(){
+    var order=screens.map(function(s){return s.id});
+    Array.prototype.forEach.call(flow.children,function(b){
+      var id=b.dataset.id;
+      b.disabled=(id!=="login"&&!state.logged)||(id==="envio"&&!state.sent);
+      if(id===state.current)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");
+    });
+    $("hello").textContent="Hola, "+state.name;
+    $("avatar").textContent=state.name.charAt(0).toUpperCase();
+    $("cName").textContent=state.name;
+    $("cMail").textContent=state.mail||"—";
+  }
+  document.addEventListener("click",function(e){
+    var t=e.target.closest("[data-go]");
+    if(t)go(t.dataset.go);
+  });
+  $("back").addEventListener("click",function(){
+    var order=screens.map(function(s){return s.id});
+    var i=order.indexOf(state.current);
+    if(state.current==="envio")return go("home");
+    if(i>0)go(order[i-1]);
+  });
+
+  // Login
+  $("loginForm").addEventListener("submit",function(e){
+    e.preventDefault();
+    var m=$("email").value.trim(),p=$("pass").value;
+    var err=$("loginErr");
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m)){err.textContent="Escribe un correo válido, por ejemplo nombre@correo.com.";$("email").focus();return}
+    if(p.length<4){err.textContent="La contraseña debe tener al menos 4 caracteres.";$("pass").focus();return}
+    err.textContent="";state.logged=true;state.mail=m;
+    var local=m.split("@")[0].replace(/[._-]+/g," ");
+    state.name=local.charAt(0).toUpperCase()+local.slice(1,20);
+    go("home");
+  });
+
+  // Home
+  $("editBtn").addEventListener("click",function(){
+    $("nameIn").value=state.name;$("editBox").hidden=false;$("nameIn").focus();
+  });
+  $("saveName").addEventListener("click",function(){
+    var v=$("nameIn").value.trim();
+    if(v){state.name=v;refresh()}
+    $("editBox").hidden=true;
+  });
+  $("helpBtn").addEventListener("click",function(){
+    var t=$("tip");t.hidden=!t.hidden;this.setAttribute("aria-expanded",String(!t.hidden));
+  });
+  $("q").addEventListener("input",function(){
+    var v=this.value.trim().toLowerCase(),n=0;
+    document.querySelectorAll("#home .card").forEach(function(c){
+      var ok=c.dataset.item.toLowerCase().indexOf(v)>-1;c.hidden=!ok;if(ok)n++;
+    });
+    $("noRes").hidden=n>0;
+  });
+  document.querySelectorAll("#home .card").forEach(function(c){
+    c.style.cursor="pointer";c.addEventListener("click",function(){go("preguntas")});
+  });
+
+  // Estrellas
+  var starsBox=$("stars");
+  for(var i=1;i<=5;i++){
+    (function(n){
+      var b=document.createElement("button");
+      b.type="button";b.textContent="★";b.setAttribute("role","radio");
+      b.setAttribute("aria-label",n+(n===1?" estrella":" estrellas"));
+      b.addEventListener("click",function(){state.rating=n;paint();$("starErr").textContent=""});
+      starsBox.appendChild(b);
+    })(i);
+  }
+  function paint(){
+    Array.prototype.forEach.call(starsBox.children,function(b,i){
+      b.classList.toggle("on",i<state.rating);
+      b.setAttribute("aria-checked",String(i+1===state.rating));
+    });
+  }
+  ["a1","a2"].forEach(function(id,i){
+    $(id).addEventListener("input",function(){$("c"+(i+1)).textContent=this.value.length+" / 300"});
+  });
+
+  // Guardar
+  $("saveBtn").addEventListener("click",function(){
+    if(!state.rating){$("starErr").textContent="Selecciona una valoración de 1 a 5 estrellas antes de guardar.";return}
+    state.sent=true;
+    $("sumStars").textContent="Valoración: "+"★".repeat(state.rating)+"☆".repeat(5-state.rating);
+    var a=$("a1").value.trim();
+    $("sumText").textContent=a?"Lo mejor: "+a:"Sin comentarios adicionales.";
+    go("envio");
+  });
+  $("restart").addEventListener("click",function(){
+    state={logged:false,name:"Gustavo",mail:"",rating:0,current:"login",sent:false};
+    $("loginForm").reset();$("a1").value="";$("a2").value="";
+    $("c1").textContent="0 / 300";$("c2").textContent="0 / 300";paint();go("login");
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>
