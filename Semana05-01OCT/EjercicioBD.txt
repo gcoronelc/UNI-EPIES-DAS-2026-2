@@ -1,0 +1,14 @@
+
+Sistema de Ventas - Caso Basico
+================================================
+- 01-Maestros: Cliente, Empleado, Categoria, Producto, TipoPago
+- 02-Ventas: Venta, DetalleVenta
+- 03-Pagos: Pago
+
+
+
+
+
+
+
+
