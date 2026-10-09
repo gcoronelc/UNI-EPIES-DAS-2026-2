@@ -1,0 +1,28 @@
+Eres un experto en Análisis y Diseño de Sistemas con UML.
+Necesito el diagrama de secuencia del "Inicio de Sesión" o "Login".
+Se aplica la arquitectura en capas: View, Controller y Service.
+Se tienen las siguientes clases por capa:
+* Capa View: LoginView y MainView.
+* Capa Controller: LoginController.
+* Capa Service: LoginService.
+Todo personal autorizado tiene un usuario y su respectiva clave.
+Además, el usuario interactúa con el View y el service interactúa con la base de datos.
+Si tienes alguna duda puedes hacer las preguntas pertinentes, pero una por una.
+Procede a realizar el diagrama de secuencia.
+
+
+
+Eres un experto en Análisis y Diseño de Sistemas con UML.
+Necesito el diagrama de secuencia de "Registro de Nuevo Cliente".
+Se aplica la arquitectura en capas: View, Controller y Service.
+Se tienen las siguientes clases por capa:
+* Capa View: RegistrarClienteView.
+* Capa Controller: ClienteController.
+* Capa Service: ClienteService.
+Todo personal autorizado tiene a este proceso.
+Además, el usuario interactúa con el View y el service interactúa con la base de datos.
+Los datos principales del nuevo cliente son: DNI, Apellidos, Nombres, Celular y correo electrónico.
+El service retorna el codigo del nuevo cliente.
+Si tienes alguna duda puedes hacer las preguntas pertinentes, pero una por una.
+Procede a realizar el diagrama de secuencia.
+
