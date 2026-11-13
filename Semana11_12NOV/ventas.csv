@@ -1,0 +1,501 @@
+id_venta,fecha,producto,categoria,cantidad,precio_unit,descuento_pct,descuento_s,total,vendedor,region,canal,metodo_pago
+1,2024-03-12,Impresora Epson EcoTank,Impresoras,2,580.0,10,116.0,1044.0,Carlos Ríos,Arequipa,Tienda física,Tarjeta débito
+2,2024-04-21,Tablet Samsung Tab S8,Tablets,2,1850.0,0,0.0,3700.0,Jorge Díaz,Lima Norte,Tienda física,Efectivo
+3,2024-01-04,"Monitor Dell 32"" 4K",Monitores,7,1950.0,15,2047.5,11602.5,María Flores,Piura,E-commerce,Tarjeta crédito
+4,2024-02-17,Mouse Razer DeathAdder,Periféricos,5,180.0,5,45.0,855.0,Luis Vega,Lima Centro,Tienda física,Efectivo
+5,2024-07-12,Impresora HP LaserJet,Impresoras,5,750.0,0,0.0,3750.0,Carlos Ríos,Piura,E-commerce,Efectivo
+6,2024-04-26,Impresora HP LaserJet,Impresoras,6,750.0,15,675.0,3825.0,María Flores,Lima Sur,Tienda física,Cuotas
+7,2024-07-05,Teclado Logitech MX,Periféricos,2,320.0,0,0.0,640.0,Jorge Díaz,Arequipa,E-commerce,Cuotas
+8,2024-07-13,Teclado Mecánico HyperX,Periféricos,2,280.0,0,0.0,560.0,Luis Vega,Lima Centro,Tienda física,Tarjeta crédito
+9,2024-06-10,Tablet Samsung Tab S8,Tablets,4,1850.0,5,370.0,7030.0,Elena Cruz,Lima Norte,Tienda física,Efectivo
+10,2024-08-22,iPad Air,Tablets,6,2999.0,0,0.0,17994.0,María Flores,Piura,E-commerce,Cuotas
+11,2024-03-11,Tablet Samsung Tab S8,Tablets,5,1850.0,5,462.5,8787.5,Jorge Díaz,Trujillo,Tienda física,Tarjeta débito
+12,2024-07-16,MacBook Air M2,Computadoras,3,5999.0,5,899.85,17097.15,Luis Vega,Trujillo,E-commerce,Efectivo
+13,2024-02-27,Teclado Mecánico HyperX,Periféricos,1,280.0,0,0.0,280.0,Ana Torres,Arequipa,Corporativo,Tarjeta crédito
+14,2024-11-23,UPS APC 1000VA,Energía,5,480.0,5,120.0,2280.0,Luis Vega,Lima Sur,Corporativo,Tarjeta crédito
+15,2024-02-27,Laptop Asus VivoBook,Computadoras,3,2350.0,0,0.0,7050.0,Carlos Ríos,Cusco,E-commerce,Efectivo
+16,2024-02-13,Mouse Logitech MX Master,Periféricos,4,220.0,10,88.0,792.0,Carlos Ríos,Lima Centro,E-commerce,Efectivo
+17,2024-05-15,Laptop Asus VivoBook,Computadoras,3,2350.0,5,352.5,6697.5,Luis Vega,Piura,E-commerce,Tarjeta débito
+18,2024-07-10,"Monitor Dell 32"" 4K",Monitores,4,1950.0,5,390.0,7410.0,Pedro Salas,Trujillo,Corporativo,Cuotas
+19,2024-10-10,Teclado Logitech MX,Periféricos,4,320.0,0,0.0,1280.0,,Cusco,Tienda física,Transferencia
+20,2024-02-06,Switch Cisco 8 puertos,Redes,1,420.0,5,21.0,399.0,María Flores,Lima Sur,Tienda física,Tarjeta crédito
+21,2024-04-07,"Monitor Dell 32"" 4K",Monitores,3,1950.0,0,0.0,5850.0,Sofía Puma,Lima Centro,E-commerce,Tarjeta crédito
+22,2024-11-26,Webcam Logitech C920,Periféricos,7,350.0,0,0.0,2450.0,Sofía Puma,Lima Norte,Corporativo,Cuotas
+23,2024-03-12,MacBook Air M2,Computadoras,4,5999.0,5,1199.8,22796.2,María Flores,Lima Centro,E-commerce,Tarjeta crédito
+24,2024-01-08,Laptop Lenovo IdeaPad,Computadoras,8,2199.0,0,0.0,17592.0,Ana Torres,Lima Norte,Corporativo,Transferencia
+25,2024-01-31,"Monitor Samsung 27""",Monitores,7,1150.0,0,0.0,8050.0,Sofía Puma,Piura,Tienda física,Tarjeta crédito
+26,2024-10-11,Teclado Mecánico HyperX,Periféricos,8,280.0,10,224.0,2016.0,Pedro Salas,Trujillo,Corporativo,Cuotas
+27,2024-01-30,Mouse Logitech MX Master,Periféricos,4,220.0,0,0.0,880.0,Carlos Ríos,Lima Norte,Corporativo,Tarjeta crédito
+28,2024-10-31,Disco Externo Seagate 2TB,Almacenamiento,3,280.0,0,0.0,840.0,Carlos Ríos,Lima Sur,Tienda física,Efectivo
+29,2024-10-25,MacBook Air M2,Computadoras,4,5999.0,5,1199.8,22796.2,Carlos Ríos,Lima Sur,E-commerce,Cuotas
+30,2024-12-09,"Monitor Dell 32"" 4K",Monitores,6,1950.0,10,1170.0,10530.0,María Flores,Arequipa,E-commerce,Tarjeta débito
+31,2024-02-21,Laptop Asus VivoBook,Computadoras,2,2350.0,0,0.0,4700.0,Carlos Ríos,Piura,E-commerce,Transferencia
+32,2024-03-21,"Monitor LG 24""",Monitores,6,850.0,5,255.0,4845.0,Ana Torres,Lima Centro,Tienda física,Tarjeta crédito
+33,2024-02-29,Impresora HP LaserJet,Impresoras,1,750.0,0,0.0,750.0,Pedro Salas,Lima Sur,Tienda física,Tarjeta crédito
+34,2024-05-15,Mouse Logitech MX Master,Periféricos,4,220.0,5,44.0,836.0,Elena Cruz,Lima Centro,Corporativo,Cuotas
+35,2024-06-19,Laptop Dell Inspiron,Computadoras,2,2899.0,15,869.7,4928.3,Jorge Díaz,Arequipa,Tienda física,Efectivo
+36,2024-12-19,"Monitor Samsung 27""",Monitores,8,1150.0,0,0.0,9200.0,Jorge Díaz,Lima Norte,Tienda física,Efectivo
+37,2024-07-05,iPad Air,Tablets,3,2999.0,15,1349.55,7647.45,Jorge Díaz,Lima Este,Tienda física,Tarjeta crédito
+38,2024-07-27,Auriculares Sony WH-1000,Audio,4,650.0,5,130.0,2470.0,María Flores,Lima Sur,Tienda física,Transferencia
+39,2024-06-19,Teclado Logitech MX,Periféricos,3,320.0,15,144.0,816.0,Luis Vega,Trujillo,Tienda física,Tarjeta débito
+40,2024-07-14,UPS APC 1000VA,Energía,4,480.0,15,288.0,1632.0,Pedro Salas,Lima Este,Corporativo,Efectivo
+41,2024-01-13,"Monitor Dell 32"" 4K",Monitores,8,1950.0,10,1560.0,14040.0,Elena Cruz,Arequipa,Tienda física,Tarjeta débito
+42,2024-06-18,Laptop Lenovo IdeaPad,Computadoras,5,2199.0,0,0.0,10995.0,Elena Cruz,Trujillo,Corporativo,Transferencia
+43,2024-06-25,"Monitor Samsung 27""",Monitores,5,1150.0,10,575.0,5175.0,Carlos Ríos,Lima Sur,E-commerce,Tarjeta crédito
+44,2024-12-28,Disco Externo Seagate 2TB,Almacenamiento,2,280.0,5,28.0,532.0,Jorge Díaz,Lima Centro,Tienda física,
+45,2024-06-18,Tablet Samsung Tab S8,Tablets,4,1850.0,5,370.0,7030.0,Elena Cruz,Trujillo,Tienda física,Cuotas
+46,2024-12-22,UPS APC 1000VA,Energía,5,480.0,0,0.0,2400.0,Pedro Salas,Trujillo,Tienda física,Tarjeta crédito
+47,2024-01-01,Router TP-Link AX3000,Redes,7,350.0,0,0.0,2450.0,Luis Vega,Arequipa,E-commerce,Transferencia
+48,2024-04-19,iPad Air,Tablets,6,2999.0,5,899.7,17094.3,Sofía Puma,Piura,E-commerce,Cuotas
+49,2024-11-20,UPS APC 1000VA,Energía,3,480.0,5,72.0,1368.0,Ana Torres,Arequipa,E-commerce,Cuotas
+50,2024-01-13,Laptop Asus VivoBook,Computadoras,4,2350.0,0,0.0,9400.0,Pedro Salas,Lima Centro,Tienda física,Tarjeta débito
+51,2024-04-09,Laptop Asus VivoBook,Computadoras,2,2350.0,10,470.0,4230.0,Sofía Puma,Trujillo,Corporativo,Transferencia
+52,2024-03-31,Teclado Logitech MX,Periféricos,3,320.0,15,144.0,816.0,Carlos Ríos,Lima Sur,E-commerce,Tarjeta débito
+53,2024-12-07,Laptop Dell Inspiron,Computadoras,4,2899.0,5,579.8,11016.2,Ana Torres,Piura,Tienda física,Tarjeta crédito
+54,2024-08-31,Laptop Asus VivoBook,Computadoras,8,2350.0,5,940.0,17860.0,Jorge Díaz,Piura,Tienda física,Cuotas
+55,2024-02-09,Impresora Epson EcoTank,Impresoras,5,580.0,10,290.0,2610.0,Sofía Puma,Lima Centro,Tienda física,Tarjeta crédito
+56,2024-12-21,Mouse Razer DeathAdder,Periféricos,2,180.0,0,0.0,360.0,Luis Vega,Lima Este,Tienda física,Tarjeta crédito
+57,2024-08-03,Webcam Logitech C920,Periféricos,6,350.0,5,105.0,1995.0,Sofía Puma,Trujillo,Tienda física,Tarjeta débito
+58,2024-06-01,Switch Cisco 8 puertos,Redes,1,420.0,15,63.0,357.0,Jorge Díaz,Piura,Tienda física,Tarjeta crédito
+59,2024-09-05,Webcam Logitech C920,Periféricos,4,350.0,0,0.0,1400.0,Sofía Puma,Lima Centro,Tienda física,Tarjeta crédito
+60,2024-01-14,Auriculares JBL Tune,Audio,3,180.0,5,27.0,513.0,Sofía Puma,Lima Este,E-commerce,Transferencia
+61,2024-05-13,Laptop Lenovo IdeaPad,Computadoras,7,2199.0,5,769.65,14623.35,Luis Vega,Piura,Tienda física,Efectivo
+62,2024-08-28,Mouse Razer DeathAdder,Periféricos,7,180.0,0,0.0,1260.0,Pedro Salas,Trujillo,Tienda física,Efectivo
+63,2024-04-12,Auriculares Sony WH-1000,Audio,4,650.0,15,390.0,2210.0,Ana Torres,Lima Norte,Tienda física,
+64,2024-05-11,"Monitor LG 24""",Monitores,8,850.0,15,1020.0,5780.0,Ana Torres,Lima Centro,E-commerce,Cuotas
+65,2024-01-14,UPS APC 1000VA,Energía,2,480.0,0,0.0,960.0,Luis Vega,Arequipa,Tienda física,Transferencia
+66,2024-11-17,Auriculares JBL Tune,Audio,7,180.0,0,0.0,1260.0,María Flores,Lima Sur,E-commerce,Cuotas
+67,2024-12-04,Router TP-Link AX3000,Redes,2,350.0,0,0.0,700.0,Carlos Ríos,Cusco,E-commerce,Tarjeta crédito
+68,2024-11-21,Laptop HP 15,Computadoras,7,2499.0,15,2623.95,14869.05,Sofía Puma,Lima Sur,E-commerce,Tarjeta crédito
+69,2024-10-30,"Monitor Samsung 27""",Monitores,5,1150.0,0,0.0,5750.0,Sofía Puma,Piura,E-commerce,Cuotas
+70,2024-11-08,Laptop Lenovo IdeaPad,Computadoras,5,2199.0,10,1099.5,9895.5,Sofía Puma,Lima Centro,E-commerce,Transferencia
+71,2024-06-23,Mouse Razer DeathAdder,Periféricos,3,180.0,0,0.0,540.0,Sofía Puma,Lima Centro,Tienda física,Tarjeta crédito
+72,2024-07-27,Teclado Mecánico HyperX,Periféricos,1,280.0,5,14.0,266.0,María Flores,Lima Sur,Tienda física,Cuotas
+73,2024-04-23,SSD WD Blue 500GB,Almacenamiento,8,180.0,5,72.0,1368.0,Sofía Puma,Lima Norte,Tienda física,Tarjeta crédito
+74,2024-10-08,iPad Air,Tablets,6,2999.0,0,0.0,17994.0,Sofía Puma,Cusco,E-commerce,Cuotas
+75,2024-06-10,Mouse Logitech MX Master,Periféricos,5,220.0,0,0.0,1100.0,María Flores,Lima Sur,Corporativo,Tarjeta débito
+76,2024-05-21,Switch Cisco 8 puertos,Redes,3,420.0,10,126.0,1134.0,María Flores,Lima Centro,Corporativo,Tarjeta crédito
+77,2024-07-03,Impresora HP LaserJet,Impresoras,5,750.0,0,0.0,3750.0,Ana Torres,Lima Centro,Tienda física,Tarjeta débito
+78,2024-12-23,"Monitor LG 24""",Monitores,5,850.0,0,0.0,4250.0,Carlos Ríos,Lima Norte,E-commerce,Tarjeta crédito
+79,2024-06-23,MacBook Air M2,Computadoras,1,5999.0,0,0.0,5999.0,Pedro Salas,Piura,E-commerce,Tarjeta crédito
+80,2024-10-22,SSD WD Blue 500GB,Almacenamiento,2,180.0,10,36.0,324.0,Ana Torres,Trujillo,E-commerce,Efectivo
+81,2024-08-01,iPad Air,Tablets,5,2999.0,5,749.75,14245.25,Ana Torres,Lima Centro,Tienda física,Transferencia
+82,2024-08-07,Laptop Asus VivoBook,Computadoras,7,2350.0,0,0.0,16450.0,Sofía Puma,Piura,Tienda física,Transferencia
+83,2024-02-11,UPS APC 1000VA,Energía,2,480.0,0,0.0,960.0,María Flores,Lima Centro,Tienda física,Cuotas
+84,2024-08-28,"Monitor Samsung 27""",Monitores,1,1150.0,0,0.0,1150.0,Jorge Díaz,Piura,Corporativo,Transferencia
+85,2024-10-28,Mouse Logitech MX Master,Periféricos,8,220.0,10,176.0,1584.0,Ana Torres,Lima Centro,Tienda física,Cuotas
+86,2024-01-31,MacBook Air M2,Computadoras,4,5999.0,0,0.0,23996.0,Luis Vega,Arequipa,Tienda física,Efectivo
+87,2024-06-04,iPad Air,Tablets,5,2999.0,10,1499.5,13495.5,Sofía Puma,Lima Sur,E-commerce,Cuotas
+88,2024-08-09,Tablet Samsung Tab S8,Tablets,8,1850.0,10,1480.0,13320.0,Sofía Puma,Lima Sur,E-commerce,Efectivo
+89,2024-03-30,Laptop Lenovo IdeaPad,Computadoras,4,2199.0,5,439.8,8356.2,Carlos Ríos,Arequipa,E-commerce,Efectivo
+90,2024-06-27,Teclado Mecánico HyperX,Periféricos,3,280.0,5,42.0,798.0,Jorge Díaz,Piura,Tienda física,Tarjeta crédito
+91,2024-07-24,"Monitor Samsung 27""",Monitores,6,1150.0,15,1035.0,5865.0,Jorge Díaz,Piura,Tienda física,Cuotas
+92,2024-09-20,Laptop Lenovo IdeaPad,Computadoras,6,2199.0,15,1979.1,11214.9,Pedro Salas,Cusco,Tienda física,Tarjeta crédito
+93,2024-07-04,Tablet Samsung Tab S8,Tablets,8,1850.0,5,740.0,14060.0,Jorge Díaz,Lima Norte,Tienda física,Transferencia
+94,2024-05-27,Laptop Asus VivoBook,Computadoras,1,2350.0,5,117.5,2232.5,María Flores,Arequipa,E-commerce,Tarjeta débito
+95,2024-10-09,Laptop HP 15,Computadoras,4,2499.0,5,499.8,9496.2,Luis Vega,Arequipa,E-commerce,Efectivo
+96,2024-05-29,MacBook Air M2,Computadoras,8,5999.0,5,2399.6,45592.4,Ana Torres,Lima Este,E-commerce,Cuotas
+97,2024-07-15,SSD WD Blue 500GB,Almacenamiento,8,180.0,0,0.0,1440.0,María Flores,Piura,E-commerce,Tarjeta débito
+98,2024-05-16,"Monitor LG 24""",Monitores,2,850.0,15,255.0,1445.0,Pedro Salas,Trujillo,Tienda física,
+99,2024-06-25,iPad Air,Tablets,8,2999.0,0,0.0,23992.0,Luis Vega,Piura,E-commerce,Tarjeta crédito
+100,2024-04-29,SSD Samsung 1TB,Almacenamiento,6,320.0,15,288.0,1632.0,María Flores,Lima Centro,E-commerce,Tarjeta crédito
+101,2024-03-18,UPS APC 1000VA,Energía,8,480.0,5,192.0,3648.0,Jorge Díaz,Trujillo,Corporativo,Cuotas
+102,2024-08-21,iPad Air,Tablets,6,2999.0,0,0.0,17994.0,Ana Torres,Piura,Tienda física,Transferencia
+103,2024-11-15,Impresora Epson EcoTank,Impresoras,3,580.0,10,174.0,1566.0,Ana Torres,Piura,Tienda física,Tarjeta crédito
+104,2024-11-12,Mouse Razer DeathAdder,Periféricos,7,180.0,0,0.0,1260.0,Elena Cruz,Piura,E-commerce,Efectivo
+105,2024-12-26,Mouse Logitech MX Master,Periféricos,4,220.0,15,132.0,748.0,Ana Torres,Trujillo,Tienda física,Cuotas
+106,2024-07-02,Mouse Logitech MX Master,Periféricos,1,220.0,0,0.0,220.0,Carlos Ríos,Cusco,Tienda física,Tarjeta crédito
+107,2024-07-14,Webcam Logitech C920,Periféricos,3,350.0,5,52.5,997.5,Luis Vega,Lima Este,Tienda física,Transferencia
+108,2024-08-23,iPad Air,Tablets,3,2999.0,0,0.0,8997.0,María Flores,Piura,Corporativo,Tarjeta crédito
+109,2024-10-27,SSD Samsung 1TB,Almacenamiento,5,320.0,0,0.0,1600.0,Luis Vega,Lima Sur,E-commerce,Tarjeta crédito
+110,2024-02-24,Teclado Mecánico HyperX,Periféricos,8,280.0,0,0.0,2240.0,Pedro Salas,Lima Centro,E-commerce,Tarjeta crédito
+111,2024-10-16,Mouse Logitech MX Master,Periféricos,5,220.0,15,165.0,935.0,Carlos Ríos,Trujillo,Tienda física,Efectivo
+112,2024-04-22,Laptop Dell Inspiron,Computadoras,8,2899.0,10,2319.2,20872.8,Pedro Salas,Lima Centro,E-commerce,Tarjeta crédito
+113,2024-01-18,Laptop Asus VivoBook,Computadoras,3,2350.0,5,352.5,6697.5,Ana Torres,Lima Norte,Tienda física,Tarjeta crédito
+114,2024-10-03,Mouse Logitech MX Master,Periféricos,6,220.0,0,0.0,1320.0,Jorge Díaz,Lima Este,Tienda física,Tarjeta débito
+115,2024-02-28,"Monitor Samsung 27""",Monitores,5,1150.0,5,287.5,5462.5,Sofía Puma,Arequipa,Corporativo,Tarjeta crédito
+116,2024-05-15,Teclado Logitech MX,Periféricos,7,320.0,5,112.0,2128.0,Elena Cruz,Lima Sur,E-commerce,Efectivo
+117,2024-04-29,UPS APC 1000VA,Energía,5,480.0,5,120.0,2280.0,Jorge Díaz,Cusco,Tienda física,
+118,2024-12-24,Tablet Samsung Tab S8,Tablets,6,1850.0,0,0.0,11100.0,María Flores,Lima Sur,Corporativo,Tarjeta crédito
+119,2024-04-30,Laptop Dell Inspiron,Computadoras,1,2899.0,5,144.95,2754.05,Pedro Salas,Piura,Tienda física,Efectivo
+120,2024-09-07,Router TP-Link AX3000,Redes,7,350.0,5,122.5,2327.5,Luis Vega,Trujillo,Corporativo,Efectivo
+121,2024-07-04,Laptop Dell Inspiron,Computadoras,6,2899.0,0,0.0,17394.0,María Flores,Piura,E-commerce,Tarjeta débito
+122,2024-03-03,Impresora Epson EcoTank,Impresoras,6,580.0,15,522.0,2958.0,Carlos Ríos,Trujillo,Tienda física,Tarjeta débito
+123,2024-10-16,"Monitor Dell 32"" 4K",Monitores,1,1950.0,0,0.0,1950.0,Carlos Ríos,Cusco,Tienda física,Tarjeta débito
+124,2024-01-02,"Monitor Dell 32"" 4K",Monitores,4,1950.0,0,0.0,7800.0,María Flores,Cusco,Tienda física,Transferencia
+125,2024-03-08,"Monitor LG 24""",Monitores,5,850.0,0,0.0,4250.0,Luis Vega,Lima Sur,Corporativo,Efectivo
+126,2024-03-05,iPad Air,Tablets,6,2999.0,10,1799.4,16194.6,Carlos Ríos,Lima Este,Tienda física,Efectivo
+127,2024-02-25,Laptop Lenovo IdeaPad,Computadoras,8,2199.0,5,879.6,16712.4,Sofía Puma,Cusco,E-commerce,Transferencia
+128,2024-07-24,Laptop Dell Inspiron,Computadoras,5,2899.0,5,724.75,13770.25,Sofía Puma,Lima Norte,Tienda física,Tarjeta crédito
+129,2024-02-03,SSD Samsung 1TB,Almacenamiento,2,320.0,0,0.0,640.0,Ana Torres,Cusco,E-commerce,Tarjeta débito
+130,2024-11-05,Tablet Samsung Tab S8,Tablets,6,1850.0,5,555.0,10545.0,Jorge Díaz,Arequipa,E-commerce,Transferencia
+131,2024-06-22,Impresora Epson EcoTank,Impresoras,4,580.0,15,348.0,1972.0,Jorge Díaz,Piura,Tienda física,Tarjeta crédito
+132,2024-07-10,MacBook Air M2,Computadoras,6,5999.0,0,0.0,35994.0,Jorge Díaz,Cusco,Corporativo,Tarjeta crédito
+133,2024-07-09,Laptop Lenovo IdeaPad,Computadoras,2,2199.0,15,659.7,3738.3,Ana Torres,Trujillo,Tienda física,Cuotas
+134,2024-08-04,Tablet Samsung Tab S8,Tablets,6,1850.0,15,1665.0,9435.0,Ana Torres,Trujillo,Tienda física,Cuotas
+135,2024-04-18,Mouse Logitech MX Master,Periféricos,5,220.0,0,0.0,1100.0,Elena Cruz,Lima Sur,E-commerce,Transferencia
+136,2024-04-25,MacBook Air M2,Computadoras,6,5999.0,15,5399.1,30594.9,Elena Cruz,Lima Sur,Tienda física,Transferencia
+137,2024-12-25,Laptop Asus VivoBook,Computadoras,1,2350.0,15,352.5,1997.5,Pedro Salas,Lima Norte,Tienda física,Tarjeta crédito
+138,2024-11-20,Laptop HP 15,Computadoras,3,2499.0,0,0.0,7497.0,Luis Vega,Trujillo,Tienda física,Tarjeta débito
+139,2024-06-08,Auriculares JBL Tune,Audio,7,180.0,10,126.0,1134.0,Sofía Puma,Cusco,Tienda física,Tarjeta crédito
+140,2024-01-26,Impresora HP LaserJet,Impresoras,2,750.0,10,150.0,1350.0,Carlos Ríos,Lima Este,Tienda física,Transferencia
+141,2024-09-19,Webcam Logitech C920,Periféricos,8,350.0,0,0.0,2800.0,Sofía Puma,Trujillo,Tienda física,Tarjeta débito
+142,2024-11-02,Router TP-Link AX3000,Redes,8,350.0,0,0.0,2800.0,Pedro Salas,Lima Norte,Tienda física,
+143,2024-01-04,"Monitor Dell 32"" 4K",Monitores,3,1950.0,5,292.5,5557.5,Pedro Salas,Arequipa,Tienda física,Efectivo
+144,2024-01-22,Auriculares JBL Tune,Audio,4,180.0,5,36.0,684.0,Elena Cruz,Lima Sur,E-commerce,
+145,2024-07-26,Mouse Razer DeathAdder,Periféricos,7,180.0,0,0.0,1260.0,Jorge Díaz,Trujillo,Tienda física,Efectivo
+146,2024-05-04,Impresora HP LaserJet,Impresoras,8,750.0,5,300.0,5700.0,Elena Cruz,Lima Sur,E-commerce,Efectivo
+147,2024-02-09,Auriculares JBL Tune,Audio,5,180.0,5,45.0,855.0,Elena Cruz,Lima Centro,Tienda física,Tarjeta débito
+148,2024-03-15,"Monitor Dell 32"" 4K",Monitores,6,1950.0,0,0.0,11700.0,Elena Cruz,Lima Este,Tienda física,Efectivo
+149,2024-10-23,Laptop Asus VivoBook,Computadoras,2,2350.0,5,235.0,4465.0,Luis Vega,Piura,E-commerce,Transferencia
+150,2024-08-28,Impresora Epson EcoTank,Impresoras,6,580.0,5,174.0,3306.0,Elena Cruz,Lima Este,E-commerce,Efectivo
+151,2024-08-19,iPad Air,Tablets,1,2999.0,0,0.0,2999.0,Elena Cruz,Lima Sur,Tienda física,Tarjeta crédito
+152,2024-01-22,Laptop Lenovo IdeaPad,Computadoras,2,2199.0,5,219.9,4178.1,Jorge Díaz,Piura,E-commerce,Transferencia
+153,2024-02-22,"Monitor Dell 32"" 4K",Monitores,6,1950.0,15,1755.0,9945.0,Sofía Puma,Lima Este,Tienda física,Tarjeta crédito
+154,2024-08-12,Switch Cisco 8 puertos,Redes,2,420.0,5,42.0,798.0,Luis Vega,Lima Norte,Tienda física,Cuotas
+155,2024-12-13,Auriculares Sony WH-1000,Audio,6,650.0,5,195.0,3705.0,Pedro Salas,Trujillo,E-commerce,Tarjeta crédito
+156,2024-07-16,Mouse Razer DeathAdder,Periféricos,2,180.0,0,0.0,360.0,Elena Cruz,Lima Sur,E-commerce,Cuotas
+157,2024-03-13,Impresora HP LaserJet,Impresoras,3,750.0,0,0.0,2250.0,Elena Cruz,Lima Sur,E-commerce,Cuotas
+158,2024-07-11,Router TP-Link AX3000,Redes,7,350.0,10,245.0,2205.0,Luis Vega,Lima Sur,Tienda física,Transferencia
+159,2024-06-07,Router TP-Link AX3000,Redes,2,350.0,0,0.0,700.0,Jorge Díaz,Cusco,Tienda física,Tarjeta crédito
+160,2024-02-09,Laptop Asus VivoBook,Computadoras,8,2350.0,0,0.0,18800.0,María Flores,Lima Centro,Tienda física,Tarjeta débito
+161,2024-03-19,Laptop Asus VivoBook,Computadoras,1,2350.0,0,0.0,2350.0,Elena Cruz,Lima Este,E-commerce,Tarjeta crédito
+162,2024-12-12,Impresora HP LaserJet,Impresoras,3,750.0,10,225.0,2025.0,Sofía Puma,Lima Norte,E-commerce,Tarjeta crédito
+163,2024-04-09,Mouse Logitech MX Master,Periféricos,8,220.0,0,0.0,1760.0,María Flores,Lima Centro,Tienda física,Tarjeta crédito
+164,2024-08-02,SSD Samsung 1TB,Almacenamiento,8,320.0,0,0.0,2560.0,Pedro Salas,Trujillo,E-commerce,Transferencia
+165,2024-02-22,"Monitor LG 24""",Monitores,5,850.0,10,425.0,3825.0,Carlos Ríos,Piura,Tienda física,Transferencia
+166,2024-03-16,Mouse Logitech MX Master,Periféricos,2,220.0,15,66.0,374.0,Luis Vega,Arequipa,E-commerce,Transferencia
+167,2024-07-21,Teclado Logitech MX,Periféricos,8,320.0,5,128.0,2432.0,Elena Cruz,Lima Norte,E-commerce,Efectivo
+168,2024-12-31,Laptop Lenovo IdeaPad,Computadoras,6,2199.0,10,1319.4,11874.6,María Flores,Lima Norte,Tienda física,Efectivo
+169,2024-08-17,Laptop Dell Inspiron,Computadoras,5,2899.0,5,724.75,13770.25,Sofía Puma,Lima Este,Corporativo,
+170,2024-05-01,Teclado Mecánico HyperX,Periféricos,4,280.0,0,0.0,1120.0,Luis Vega,Trujillo,Tienda física,Tarjeta crédito
+171,2024-10-01,Impresora Epson EcoTank,Impresoras,8,580.0,0,0.0,4640.0,Ana Torres,Lima Sur,E-commerce,Transferencia
+172,2024-06-29,Switch Cisco 8 puertos,Redes,3,420.0,0,0.0,1260.0,Pedro Salas,Trujillo,Tienda física,Transferencia
+173,2024-09-16,Router TP-Link AX3000,Redes,2,350.0,15,105.0,595.0,Elena Cruz,Lima Sur,E-commerce,Transferencia
+174,2024-01-09,Auriculares JBL Tune,Audio,8,180.0,0,0.0,1440.0,Carlos Ríos,Trujillo,Tienda física,Tarjeta crédito
+175,2024-10-06,UPS APC 1000VA,Energía,2,480.0,0,0.0,960.0,Elena Cruz,Lima Este,Tienda física,Tarjeta crédito
+176,2024-08-22,Laptop Asus VivoBook,Computadoras,8,2350.0,0,0.0,18800.0,Sofía Puma,Lima Este,Tienda física,Efectivo
+177,2024-10-05,"Monitor Dell 32"" 4K",Monitores,1,1950.0,5,97.5,1852.5,Elena Cruz,Arequipa,E-commerce,Tarjeta crédito
+178,2024-05-19,"Monitor Dell 32"" 4K",Monitores,5,1950.0,0,0.0,9750.0,Elena Cruz,Lima Norte,Corporativo,Tarjeta crédito
+179,2024-12-20,Auriculares JBL Tune,Audio,8,180.0,5,72.0,1368.0,Jorge Díaz,Cusco,Tienda física,Tarjeta crédito
+180,2024-04-02,Teclado Mecánico HyperX,Periféricos,2,280.0,5,28.0,532.0,Jorge Díaz,Lima Sur,E-commerce,Transferencia
+181,2024-08-06,Mouse Razer DeathAdder,Periféricos,5,180.0,0,0.0,900.0,Pedro Salas,Piura,E-commerce,Cuotas
+182,2024-02-08,Laptop Dell Inspiron,Computadoras,6,2899.0,10,1739.4,15654.6,Jorge Díaz,Arequipa,Corporativo,Efectivo
+183,2024-08-12,UPS APC 1000VA,Energía,3,480.0,0,0.0,1440.0,Carlos Ríos,Lima Este,E-commerce,Cuotas
+184,2024-11-05,Impresora Epson EcoTank,Impresoras,6,580.0,0,0.0,3480.0,Elena Cruz,Trujillo,E-commerce,Efectivo
+185,2024-07-22,Auriculares Sony WH-1000,Audio,8,650.0,0,0.0,5200.0,Ana Torres,Lima Este,E-commerce,Tarjeta crédito
+186,2024-10-14,MacBook Air M2,Computadoras,1,5999.0,0,0.0,5999.0,Luis Vega,Piura,E-commerce,Tarjeta crédito
+187,2024-03-10,SSD Samsung 1TB,Almacenamiento,4,320.0,15,192.0,1088.0,Pedro Salas,Piura,Tienda física,Efectivo
+188,2024-12-29,Switch Cisco 8 puertos,Redes,8,420.0,0,0.0,3360.0,Ana Torres,Cusco,Corporativo,Tarjeta crédito
+189,2024-03-03,Mouse Logitech MX Master,Periféricos,3,220.0,0,0.0,660.0,Luis Vega,Cusco,E-commerce,Tarjeta débito
+190,2024-03-07,SSD WD Blue 500GB,Almacenamiento,1,180.0,5,9.0,171.0,Elena Cruz,Cusco,E-commerce,Transferencia
+191,2024-03-05,Auriculares JBL Tune,Audio,8,180.0,0,0.0,1440.0,Jorge Díaz,Trujillo,E-commerce,Efectivo
+192,2024-09-14,Router TP-Link AX3000,Redes,6,350.0,15,315.0,1785.0,Luis Vega,Lima Este,Tienda física,Tarjeta crédito
+193,2024-04-25,"Monitor LG 24""",Monitores,5,850.0,0,0.0,4250.0,Luis Vega,Lima Este,Tienda física,Cuotas
+194,2024-05-20,Mouse Logitech MX Master,Periféricos,2,220.0,0,0.0,440.0,Pedro Salas,Lima Centro,Corporativo,Transferencia
+195,2024-11-05,Laptop Lenovo IdeaPad,Computadoras,3,2199.0,0,0.0,6597.0,Luis Vega,Lima Este,Corporativo,Transferencia
+196,2024-10-19,Laptop HP 15,Computadoras,2,2499.0,5,249.9,4748.1,Carlos Ríos,Arequipa,Corporativo,Tarjeta débito
+197,2024-07-26,Impresora Epson EcoTank,Impresoras,5,580.0,0,0.0,2900.0,Pedro Salas,Piura,Tienda física,Cuotas
+198,2024-06-23,"Monitor Samsung 27""",Monitores,8,1150.0,5,460.0,8740.0,Jorge Díaz,Piura,E-commerce,Tarjeta débito
+199,2024-10-14,Mouse Razer DeathAdder,Periféricos,6,180.0,0,0.0,1080.0,Jorge Díaz,Lima Este,Tienda física,Transferencia
+200,2024-05-28,Teclado Mecánico HyperX,Periféricos,8,280.0,5,112.0,2128.0,María Flores,Lima Este,Tienda física,Efectivo
+201,2024-09-20,"Monitor Samsung 27""",Monitores,6,1150.0,5,345.0,6555.0,Elena Cruz,Lima Centro,Tienda física,Tarjeta crédito
+202,2024-10-25,Laptop HP 15,Computadoras,2,2499.0,0,0.0,4998.0,Jorge Díaz,Piura,Tienda física,Tarjeta débito
+203,2024-03-09,Impresora HP LaserJet,Impresoras,8,750.0,0,0.0,6000.0,Pedro Salas,Lima Norte,Tienda física,Tarjeta crédito
+204,2024-04-09,Auriculares Sony WH-1000,Audio,1,650.0,0,0.0,650.0,Jorge Díaz,Lima Norte,E-commerce,Transferencia
+205,2024-07-20,Disco Externo Seagate 2TB,Almacenamiento,8,280.0,0,0.0,2240.0,Pedro Salas,Lima Sur,Tienda física,Efectivo
+206,2024-01-24,Auriculares Sony WH-1000,Audio,3,650.0,0,0.0,1950.0,María Flores,Trujillo,E-commerce,Efectivo
+207,2024-06-12,SSD WD Blue 500GB,Almacenamiento,8,180.0,0,0.0,1440.0,Luis Vega,Lima Este,Tienda física,Transferencia
+208,2024-07-07,Mouse Logitech MX Master,Periféricos,6,220.0,0,0.0,1320.0,Sofía Puma,Arequipa,E-commerce,Efectivo
+209,2024-10-23,iPad Air,Tablets,5,2999.0,5,749.75,14245.25,Carlos Ríos,Piura,Tienda física,Cuotas
+210,2024-01-17,SSD WD Blue 500GB,Almacenamiento,3,180.0,5,27.0,513.0,Jorge Díaz,Lima Este,Corporativo,Tarjeta débito
+211,2024-12-19,Laptop HP 15,Computadoras,8,2499.0,0,0.0,19992.0,Elena Cruz,Trujillo,Tienda física,Tarjeta crédito
+212,2024-12-05,SSD WD Blue 500GB,Almacenamiento,1,180.0,5,9.0,171.0,Luis Vega,Lima Centro,E-commerce,Tarjeta crédito
+213,2024-12-14,"Monitor Samsung 27""",Monitores,8,1150.0,10,920.0,8280.0,Elena Cruz,Cusco,Corporativo,Cuotas
+214,2024-04-25,SSD WD Blue 500GB,Almacenamiento,4,180.0,0,0.0,720.0,María Flores,Arequipa,E-commerce,Tarjeta crédito
+215,2024-05-20,Switch Cisco 8 puertos,Redes,8,420.0,0,0.0,3360.0,Elena Cruz,Piura,Tienda física,Transferencia
+216,2024-05-27,Auriculares JBL Tune,Audio,7,180.0,10,126.0,1134.0,Elena Cruz,Lima Este,Tienda física,Efectivo
+217,2024-05-18,Impresora Epson EcoTank,Impresoras,5,580.0,5,145.0,2755.0,Sofía Puma,Lima Centro,Tienda física,Transferencia
+218,2024-04-25,Impresora HP LaserJet,Impresoras,4,750.0,10,300.0,2700.0,María Flores,Lima Norte,Corporativo,Transferencia
+219,2024-03-21,Mouse Razer DeathAdder,Periféricos,8,180.0,5,72.0,1368.0,Ana Torres,Lima Este,Tienda física,Transferencia
+220,2024-11-26,SSD WD Blue 500GB,Almacenamiento,8,180.0,0,0.0,1440.0,María Flores,Arequipa,Tienda física,Tarjeta crédito
+221,2024-01-19,iPad Air,Tablets,4,2999.0,15,1799.4,10196.6,Carlos Ríos,Lima Este,E-commerce,Tarjeta débito
+222,2024-11-04,UPS APC 1000VA,Energía,5,480.0,0,0.0,2400.0,Carlos Ríos,Lima Norte,Tienda física,Transferencia
+223,2024-02-27,SSD Samsung 1TB,Almacenamiento,8,320.0,0,0.0,2560.0,Luis Vega,Piura,Tienda física,Tarjeta débito
+224,2024-12-11,Teclado Mecánico HyperX,Periféricos,3,280.0,15,126.0,714.0,Carlos Ríos,Cusco,Tienda física,Transferencia
+225,2024-12-08,Impresora Epson EcoTank,Impresoras,7,580.0,0,0.0,4060.0,Jorge Díaz,Cusco,Tienda física,Tarjeta crédito
+226,2024-08-16,Mouse Razer DeathAdder,Periféricos,4,180.0,15,108.0,612.0,Carlos Ríos,Arequipa,E-commerce,Tarjeta débito
+227,2024-02-01,iPad Air,Tablets,1,2999.0,10,299.9,2699.1,Pedro Salas,Cusco,Corporativo,Tarjeta débito
+228,2024-04-23,Auriculares JBL Tune,Audio,5,180.0,0,0.0,900.0,Ana Torres,Arequipa,Tienda física,Transferencia
+229,2024-04-21,SSD Samsung 1TB,Almacenamiento,6,320.0,15,288.0,1632.0,Jorge Díaz,Piura,E-commerce,Cuotas
+230,2024-02-01,Laptop Lenovo IdeaPad,Computadoras,8,2199.0,15,2638.8,14953.2,Elena Cruz,Lima Sur,E-commerce,Efectivo
+231,2024-02-29,iPad Air,Tablets,3,2999.0,10,899.7,8097.3,Luis Vega,Cusco,E-commerce,Tarjeta crédito
+232,2024-07-31,Laptop Lenovo IdeaPad,Computadoras,8,2199.0,5,879.6,16712.4,Carlos Ríos,Piura,Tienda física,Transferencia
+233,2024-04-21,Router TP-Link AX3000,Redes,5,350.0,5,87.5,1662.5,Carlos Ríos,Trujillo,Tienda física,Efectivo
+234,2024-05-26,Switch Cisco 8 puertos,Redes,2,420.0,5,42.0,798.0,Carlos Ríos,Lima Sur,E-commerce,Efectivo
+235,2024-07-11,Impresora Epson EcoTank,Impresoras,7,580.0,0,0.0,4060.0,Elena Cruz,Trujillo,E-commerce,Tarjeta crédito
+236,2024-07-20,Tablet Samsung Tab S8,Tablets,3,1850.0,5,277.5,5272.5,Elena Cruz,Lima Sur,Tienda física,Transferencia
+237,2024-10-05,Laptop HP 15,Computadoras,1,2499.0,5,124.95,2374.05,Pedro Salas,Piura,Corporativo,Cuotas
+238,2024-02-27,Teclado Logitech MX,Periféricos,8,320.0,0,0.0,2560.0,Elena Cruz,Lima Este,Tienda física,Tarjeta débito
+239,2024-10-31,Laptop Asus VivoBook,Computadoras,1,2350.0,0,0.0,2350.0,María Flores,Lima Centro,Tienda física,Efectivo
+240,2024-10-03,Laptop Dell Inspiron,Computadoras,4,2899.0,0,0.0,11596.0,Carlos Ríos,Trujillo,E-commerce,Tarjeta débito
+241,2024-12-10,"Monitor LG 24""",Monitores,5,850.0,15,637.5,3612.5,María Flores,Cusco,E-commerce,Transferencia
+242,2024-10-12,"Monitor LG 24""",Monitores,4,850.0,5,170.0,3230.0,Jorge Díaz,Arequipa,Tienda física,Efectivo
+243,2024-12-09,Impresora Epson EcoTank,Impresoras,7,580.0,5,203.0,3857.0,Sofía Puma,Lima Norte,Tienda física,Cuotas
+244,2024-10-02,Webcam Logitech C920,Periféricos,7,350.0,5,122.5,2327.5,Luis Vega,Arequipa,E-commerce,Tarjeta débito
+245,2024-08-01,Switch Cisco 8 puertos,Redes,3,420.0,5,63.0,1197.0,Sofía Puma,Lima Norte,E-commerce,Tarjeta crédito
+246,2024-02-17,Teclado Mecánico HyperX,Periféricos,4,280.0,5,56.0,1064.0,Elena Cruz,Lima Sur,E-commerce,Tarjeta crédito
+247,2024-12-09,Teclado Mecánico HyperX,Periféricos,7,280.0,5,98.0,1862.0,Carlos Ríos,Lima Sur,Tienda física,Transferencia
+248,2024-03-01,Mouse Razer DeathAdder,Periféricos,5,180.0,10,90.0,810.0,Carlos Ríos,Lima Centro,Tienda física,Cuotas
+249,2024-05-24,Teclado Logitech MX,Periféricos,4,320.0,5,64.0,1216.0,Jorge Díaz,Lima Centro,E-commerce,Tarjeta crédito
+250,2024-08-28,Mouse Logitech MX Master,Periféricos,5,220.0,15,165.0,935.0,Elena Cruz,Piura,E-commerce,Efectivo
+251,2024-03-15,Auriculares Sony WH-1000,Audio,6,650.0,0,0.0,3900.0,Jorge Díaz,Lima Norte,E-commerce,Tarjeta débito
+252,2024-04-27,iPad Air,Tablets,7,2999.0,5,1049.65,19943.35,Pedro Salas,Lima Este,Tienda física,Tarjeta crédito
+253,2024-09-08,Tablet Samsung Tab S8,Tablets,6,1850.0,5,555.0,10545.0,Pedro Salas,Piura,Corporativo,Cuotas
+254,2024-01-31,"Monitor Samsung 27""",Monitores,3,1150.0,5,172.5,3277.5,Sofía Puma,Lima Este,E-commerce,Cuotas
+255,2024-04-28,Router TP-Link AX3000,Redes,1,350.0,0,0.0,350.0,,Trujillo,Tienda física,Cuotas
+256,2024-12-07,Disco Externo Seagate 2TB,Almacenamiento,8,280.0,5,112.0,2128.0,Elena Cruz,Lima Norte,E-commerce,Cuotas
+257,2024-05-20,Laptop HP 15,Computadoras,1,2499.0,5,124.95,2374.05,,Lima Norte,Tienda física,Transferencia
+258,2024-03-17,Switch Cisco 8 puertos,Redes,7,420.0,0,0.0,2940.0,Luis Vega,Lima Sur,Tienda física,Transferencia
+259,2024-08-23,Auriculares Sony WH-1000,Audio,5,650.0,5,162.5,3087.5,Jorge Díaz,Lima Sur,Tienda física,Tarjeta crédito
+260,2024-07-12,Mouse Logitech MX Master,Periféricos,2,220.0,5,22.0,418.0,Carlos Ríos,Lima Sur,E-commerce,Tarjeta crédito
+261,2024-06-18,Switch Cisco 8 puertos,Redes,3,420.0,5,63.0,1197.0,Ana Torres,Piura,E-commerce,Cuotas
+262,2024-08-31,Disco Externo Seagate 2TB,Almacenamiento,1,280.0,0,0.0,280.0,María Flores,Lima Centro,Corporativo,Transferencia
+263,2024-10-27,Teclado Mecánico HyperX,Periféricos,1,280.0,0,0.0,280.0,Luis Vega,Cusco,Tienda física,Tarjeta débito
+264,2024-10-17,Auriculares JBL Tune,Audio,2,180.0,15,54.0,306.0,Pedro Salas,Lima Este,E-commerce,Tarjeta débito
+265,2024-02-10,Tablet Samsung Tab S8,Tablets,6,1850.0,5,555.0,10545.0,Jorge Díaz,Lima Este,Corporativo,Cuotas
+266,2024-11-10,MacBook Air M2,Computadoras,7,5999.0,5,2099.65,39893.35,María Flores,Lima Sur,Tienda física,Transferencia
+267,2024-10-10,Laptop HP 15,Computadoras,5,2499.0,5,624.75,11870.25,Sofía Puma,Piura,Tienda física,Tarjeta crédito
+268,2024-02-07,Router TP-Link AX3000,Redes,7,350.0,0,0.0,2450.0,Ana Torres,Arequipa,Tienda física,Cuotas
+269,2024-02-16,Impresora Epson EcoTank,Impresoras,3,580.0,0,0.0,1740.0,Jorge Díaz,Cusco,Tienda física,Efectivo
+270,2024-08-08,Laptop Asus VivoBook,Computadoras,5,2350.0,5,587.5,11162.5,Ana Torres,Lima Este,Tienda física,Tarjeta débito
+271,2024-11-01,MacBook Air M2,Computadoras,1,5999.0,5,299.95,5699.05,Ana Torres,Cusco,E-commerce,Efectivo
+272,2024-10-13,Laptop HP 15,Computadoras,5,2499.0,0,0.0,12495.0,Jorge Díaz,Trujillo,Tienda física,Cuotas
+273,2024-09-09,Auriculares JBL Tune,Audio,3,180.0,0,0.0,540.0,Luis Vega,Arequipa,Tienda física,Tarjeta crédito
+274,2024-05-06,Webcam Logitech C920,Periféricos,5,350.0,10,175.0,1575.0,Sofía Puma,Lima Sur,Tienda física,Tarjeta crédito
+275,2024-07-21,"Monitor Dell 32"" 4K",Monitores,8,1950.0,0,0.0,15600.0,Ana Torres,Lima Este,Tienda física,Efectivo
+276,2024-03-10,Mouse Razer DeathAdder,Periféricos,8,180.0,0,0.0,1440.0,Elena Cruz,Trujillo,Corporativo,Transferencia
+277,2024-05-29,"Monitor Dell 32"" 4K",Monitores,8,1950.0,10,1560.0,14040.0,Elena Cruz,Lima Este,E-commerce,Tarjeta crédito
+278,2024-07-05,iPad Air,Tablets,4,2999.0,0,0.0,11996.0,Elena Cruz,Trujillo,Tienda física,Tarjeta crédito
+279,2024-08-12,Tablet Samsung Tab S8,Tablets,3,1850.0,15,832.5,4717.5,Carlos Ríos,Piura,Corporativo,Tarjeta débito
+280,2024-12-03,Webcam Logitech C920,Periféricos,8,350.0,0,0.0,2800.0,Luis Vega,Arequipa,Tienda física,Tarjeta crédito
+281,2024-12-20,Laptop Lenovo IdeaPad,Computadoras,8,2199.0,5,879.6,16712.4,Sofía Puma,Trujillo,E-commerce,Transferencia
+282,2024-06-30,Auriculares Sony WH-1000,Audio,2,650.0,0,0.0,1300.0,Ana Torres,Lima Centro,Corporativo,Cuotas
+283,2024-02-20,Impresora Epson EcoTank,Impresoras,7,580.0,0,0.0,4060.0,Elena Cruz,Trujillo,Tienda física,Efectivo
+284,2024-12-13,Tablet Samsung Tab S8,Tablets,4,1850.0,5,370.0,7030.0,Sofía Puma,Cusco,E-commerce,Tarjeta crédito
+285,2024-02-29,Laptop HP 15,Computadoras,8,2499.0,15,2998.8,16993.2,Ana Torres,Arequipa,E-commerce,Efectivo
+286,2024-06-27,Mouse Logitech MX Master,Periféricos,6,220.0,5,66.0,1254.0,Sofía Puma,Lima Centro,E-commerce,Tarjeta crédito
+287,2024-02-28,SSD Samsung 1TB,Almacenamiento,6,320.0,0,0.0,1920.0,Ana Torres,Arequipa,Tienda física,Cuotas
+288,2024-06-18,Router TP-Link AX3000,Redes,3,350.0,5,52.5,997.5,María Flores,Lima Este,E-commerce,Tarjeta débito
+289,2024-11-10,Auriculares JBL Tune,Audio,3,180.0,0,0.0,540.0,Luis Vega,Trujillo,E-commerce,Efectivo
+290,2024-10-22,Laptop HP 15,Computadoras,4,2499.0,0,0.0,9996.0,María Flores,Arequipa,Corporativo,Efectivo
+291,2024-12-09,Auriculares Sony WH-1000,Audio,6,650.0,15,585.0,3315.0,María Flores,Piura,Tienda física,Tarjeta crédito
+292,2024-08-22,Mouse Razer DeathAdder,Periféricos,7,180.0,5,63.0,1197.0,Jorge Díaz,Lima Sur,Tienda física,Tarjeta crédito
+293,2024-06-05,Mouse Logitech MX Master,Periféricos,2,220.0,0,0.0,440.0,Luis Vega,Cusco,Tienda física,Tarjeta débito
+294,2024-08-04,Disco Externo Seagate 2TB,Almacenamiento,7,280.0,0,0.0,1960.0,Jorge Díaz,Lima Este,E-commerce,Tarjeta crédito
+295,2024-04-05,Impresora Epson EcoTank,Impresoras,3,580.0,0,0.0,1740.0,Luis Vega,Piura,Tienda física,Tarjeta débito
+296,2024-10-14,Auriculares Sony WH-1000,Audio,1,650.0,5,32.5,617.5,Sofía Puma,Lima Este,Tienda física,Tarjeta crédito
+297,2024-10-16,SSD WD Blue 500GB,Almacenamiento,7,180.0,0,0.0,1260.0,Sofía Puma,Piura,Tienda física,Efectivo
+298,2024-10-16,Laptop Dell Inspiron,Computadoras,5,2899.0,10,1449.5,13045.5,María Flores,Arequipa,Tienda física,Tarjeta crédito
+299,2024-10-04,Disco Externo Seagate 2TB,Almacenamiento,2,280.0,15,84.0,476.0,Ana Torres,Arequipa,E-commerce,Tarjeta crédito
+300,2024-05-06,SSD Samsung 1TB,Almacenamiento,4,320.0,0,0.0,1280.0,Jorge Díaz,Lima Sur,Corporativo,Cuotas
+301,2024-04-17,Teclado Mecánico HyperX,Periféricos,6,280.0,15,252.0,1428.0,Ana Torres,Piura,Tienda física,Tarjeta débito
+302,2024-01-31,Switch Cisco 8 puertos,Redes,7,420.0,5,147.0,2793.0,Luis Vega,Lima Este,Tienda física,Tarjeta débito
+303,2024-05-16,Tablet Samsung Tab S8,Tablets,3,1850.0,15,832.5,4717.5,Elena Cruz,Arequipa,Tienda física,Transferencia
+304,2024-03-05,MacBook Air M2,Computadoras,3,5999.0,10,1799.7,16197.3,Jorge Díaz,Lima Norte,Tienda física,Cuotas
+305,2024-10-22,Switch Cisco 8 puertos,Redes,6,420.0,10,252.0,2268.0,María Flores,Trujillo,E-commerce,Tarjeta débito
+306,2024-05-22,SSD Samsung 1TB,Almacenamiento,2,320.0,10,64.0,576.0,Ana Torres,Trujillo,E-commerce,Cuotas
+307,2024-11-21,SSD WD Blue 500GB,Almacenamiento,6,180.0,10,108.0,972.0,Carlos Ríos,Lima Sur,Corporativo,Tarjeta crédito
+308,2024-05-17,Tablet Samsung Tab S8,Tablets,7,1850.0,0,0.0,12950.0,María Flores,Trujillo,Tienda física,Tarjeta crédito
+309,2024-01-24,iPad Air,Tablets,3,2999.0,0,0.0,8997.0,Sofía Puma,Cusco,Corporativo,Efectivo
+310,2024-08-07,Laptop HP 15,Computadoras,2,2499.0,0,0.0,4998.0,Luis Vega,Piura,E-commerce,Efectivo
+311,2024-07-03,Impresora Epson EcoTank,Impresoras,5,580.0,0,0.0,2900.0,Luis Vega,Arequipa,Tienda física,Cuotas
+312,2024-12-24,Impresora Epson EcoTank,Impresoras,3,580.0,15,261.0,1479.0,Carlos Ríos,Trujillo,Corporativo,Tarjeta crédito
+313,2024-03-08,Switch Cisco 8 puertos,Redes,2,420.0,5,42.0,798.0,Carlos Ríos,Lima Centro,E-commerce,Efectivo
+314,2024-03-08,Laptop HP 15,Computadoras,1,2499.0,5,124.95,2374.05,Elena Cruz,Lima Sur,E-commerce,Cuotas
+315,2024-03-11,UPS APC 1000VA,Energía,2,480.0,5,48.0,912.0,Ana Torres,Cusco,Tienda física,Tarjeta crédito
+316,2024-03-25,"Monitor LG 24""",Monitores,3,850.0,5,127.5,2422.5,Ana Torres,Lima Norte,E-commerce,Cuotas
+317,2024-02-21,UPS APC 1000VA,Energía,3,480.0,0,0.0,1440.0,Jorge Díaz,Piura,Tienda física,Efectivo
+318,2024-05-21,Auriculares JBL Tune,Audio,6,180.0,10,108.0,972.0,Jorge Díaz,Cusco,Tienda física,Tarjeta débito
+319,2024-11-06,Impresora HP LaserJet,Impresoras,5,750.0,5,187.5,3562.5,Carlos Ríos,Arequipa,Tienda física,Transferencia
+320,2024-05-03,Impresora Epson EcoTank,Impresoras,1,580.0,5,29.0,551.0,María Flores,Piura,E-commerce,Efectivo
+321,2024-08-03,Laptop HP 15,Computadoras,6,2499.0,0,0.0,14994.0,Elena Cruz,Lima Este,E-commerce,Transferencia
+322,2024-04-20,SSD WD Blue 500GB,Almacenamiento,2,180.0,0,0.0,360.0,Carlos Ríos,Lima Sur,Tienda física,Tarjeta crédito
+323,2024-02-12,Auriculares JBL Tune,Audio,5,180.0,10,90.0,810.0,Jorge Díaz,Trujillo,Corporativo,Tarjeta crédito
+324,2024-03-20,Teclado Mecánico HyperX,Periféricos,2,280.0,5,28.0,532.0,Pedro Salas,Lima Sur,E-commerce,Tarjeta débito
+325,2024-01-30,Laptop Asus VivoBook,Computadoras,2,2350.0,0,0.0,4700.0,Pedro Salas,Trujillo,Corporativo,Tarjeta débito
+326,2024-12-28,SSD Samsung 1TB,Almacenamiento,1,320.0,0,0.0,320.0,Pedro Salas,Lima Este,Tienda física,Efectivo
+327,2024-05-17,Auriculares Sony WH-1000,Audio,5,650.0,10,325.0,2925.0,Luis Vega,Cusco,Tienda física,Cuotas
+328,2024-05-14,Laptop HP 15,Computadoras,6,2499.0,10,1499.4,13494.6,Jorge Díaz,Arequipa,E-commerce,Efectivo
+329,2024-03-26,SSD WD Blue 500GB,Almacenamiento,8,180.0,0,0.0,1440.0,Elena Cruz,Lima Norte,E-commerce,Transferencia
+330,2024-05-05,iPad Air,Tablets,2,2999.0,0,0.0,5998.0,María Flores,Lima Norte,Tienda física,Efectivo
+331,2024-05-07,"Monitor LG 24""",Monitores,3,850.0,5,127.5,2422.5,Carlos Ríos,Trujillo,Tienda física,Tarjeta crédito
+332,2024-09-21,Laptop Lenovo IdeaPad,Computadoras,6,2199.0,0,0.0,13194.0,Ana Torres,Lima Norte,Tienda física,Tarjeta débito
+333,2024-08-21,SSD Samsung 1TB,Almacenamiento,5,320.0,0,0.0,1600.0,Pedro Salas,Cusco,Tienda física,Transferencia
+334,2024-04-10,Mouse Logitech MX Master,Periféricos,4,220.0,10,88.0,792.0,Sofía Puma,Cusco,E-commerce,Tarjeta crédito
+335,2024-10-04,Teclado Logitech MX,Periféricos,3,320.0,0,0.0,960.0,Carlos Ríos,Trujillo,Tienda física,Tarjeta débito
+336,2024-06-06,Laptop HP 15,Computadoras,6,2499.0,0,0.0,14994.0,Carlos Ríos,Trujillo,Corporativo,Cuotas
+337,2024-02-17,Webcam Logitech C920,Periféricos,8,350.0,0,0.0,2800.0,Carlos Ríos,Lima Este,Corporativo,Tarjeta crédito
+338,2024-10-24,Disco Externo Seagate 2TB,Almacenamiento,7,280.0,0,0.0,1960.0,Elena Cruz,Piura,Corporativo,Efectivo
+339,2024-05-01,Auriculares JBL Tune,Audio,2,180.0,0,0.0,360.0,Carlos Ríos,Trujillo,Corporativo,Tarjeta débito
+340,2024-02-08,Auriculares JBL Tune,Audio,6,180.0,0,0.0,1080.0,Elena Cruz,Piura,Tienda física,Tarjeta débito
+341,2024-06-09,MacBook Air M2,Computadoras,3,5999.0,5,899.85,17097.15,Ana Torres,Lima Este,E-commerce,Tarjeta crédito
+342,2024-03-02,Laptop Asus VivoBook,Computadoras,4,2350.0,0,0.0,9400.0,Sofía Puma,Arequipa,E-commerce,Tarjeta crédito
+343,2024-12-30,Switch Cisco 8 puertos,Redes,1,420.0,0,0.0,420.0,María Flores,Cusco,Tienda física,Efectivo
+344,2024-08-19,Laptop Dell Inspiron,Computadoras,5,2899.0,5,724.75,13770.25,Pedro Salas,Lima Este,Tienda física,Tarjeta crédito
+345,2024-04-23,SSD Samsung 1TB,Almacenamiento,2,320.0,0,0.0,640.0,Luis Vega,Lima Sur,Tienda física,Efectivo
+346,2024-04-11,Router TP-Link AX3000,Redes,2,350.0,10,70.0,630.0,Pedro Salas,Lima Sur,Tienda física,Efectivo
+347,2024-10-20,Mouse Razer DeathAdder,Periféricos,2,180.0,5,18.0,342.0,Carlos Ríos,Piura,Tienda física,Tarjeta débito
+348,2024-04-05,Laptop HP 15,Computadoras,7,2499.0,0,0.0,17493.0,Jorge Díaz,Lima Este,Tienda física,Tarjeta débito
+349,2024-09-02,Laptop Dell Inspiron,Computadoras,4,2899.0,0,0.0,11596.0,Pedro Salas,Piura,E-commerce,Transferencia
+350,2024-07-02,Webcam Logitech C920,Periféricos,4,350.0,5,70.0,1330.0,María Flores,Lima Norte,E-commerce,Cuotas
+351,2024-06-12,iPad Air,Tablets,6,2999.0,5,899.7,17094.3,Jorge Díaz,Arequipa,Tienda física,Efectivo
+352,2024-10-26,Laptop Asus VivoBook,Computadoras,5,2350.0,0,0.0,11750.0,Carlos Ríos,Piura,E-commerce,Tarjeta crédito
+353,2024-07-17,Router TP-Link AX3000,Redes,4,350.0,0,0.0,1400.0,Pedro Salas,Lima Norte,Tienda física,Transferencia
+354,2024-07-02,"Monitor Samsung 27""",Monitores,3,1150.0,5,172.5,3277.5,María Flores,Cusco,Corporativo,
+355,2024-03-30,iPad Air,Tablets,3,2999.0,5,449.85,8547.15,María Flores,Piura,E-commerce,Tarjeta crédito
+356,2024-11-10,Impresora HP LaserJet,Impresoras,4,750.0,0,0.0,3000.0,Carlos Ríos,Piura,Tienda física,Tarjeta crédito
+357,2024-12-26,"Monitor Samsung 27""",Monitores,6,1150.0,0,0.0,6900.0,Carlos Ríos,Lima Norte,Tienda física,Transferencia
+358,2024-06-21,Auriculares Sony WH-1000,Audio,2,650.0,0,0.0,1300.0,Elena Cruz,Trujillo,E-commerce,Efectivo
+359,2024-10-14,UPS APC 1000VA,Energía,7,480.0,10,336.0,3024.0,Sofía Puma,Cusco,Tienda física,Cuotas
+360,2024-12-18,Auriculares Sony WH-1000,Audio,4,650.0,0,0.0,2600.0,Luis Vega,Trujillo,Tienda física,Cuotas
+361,2024-11-09,Switch Cisco 8 puertos,Redes,7,420.0,0,0.0,2940.0,Carlos Ríos,Lima Este,E-commerce,Tarjeta crédito
+362,2024-06-12,SSD WD Blue 500GB,Almacenamiento,3,180.0,0,0.0,540.0,Elena Cruz,Lima Sur,Tienda física,Tarjeta crédito
+363,2024-05-07,Switch Cisco 8 puertos,Redes,6,420.0,10,252.0,2268.0,Sofía Puma,Lima Norte,Tienda física,Tarjeta débito
+364,2024-08-02,MacBook Air M2,Computadoras,1,5999.0,0,0.0,5999.0,Carlos Ríos,Trujillo,E-commerce,Cuotas
+365,2024-11-29,Auriculares JBL Tune,Audio,6,180.0,15,162.0,918.0,Jorge Díaz,Lima Sur,E-commerce,Transferencia
+366,2024-02-23,Laptop Lenovo IdeaPad,Computadoras,1,2199.0,0,0.0,2199.0,Pedro Salas,Lima Norte,Tienda física,Tarjeta crédito
+367,2024-09-04,"Monitor Samsung 27""",Monitores,2,1150.0,10,230.0,2070.0,Ana Torres,Cusco,E-commerce,Transferencia
+368,2024-04-15,"Monitor Samsung 27""",Monitores,7,1150.0,0,0.0,8050.0,Luis Vega,Lima Norte,Tienda física,Tarjeta crédito
+369,2024-01-26,UPS APC 1000VA,Energía,5,480.0,5,120.0,2280.0,Pedro Salas,Arequipa,Tienda física,Efectivo
+370,2024-05-30,"Monitor LG 24""",Monitores,1,850.0,15,127.5,722.5,Elena Cruz,Lima Norte,E-commerce,Efectivo
+371,2024-05-29,"Monitor Dell 32"" 4K",Monitores,2,1950.0,0,0.0,3900.0,Carlos Ríos,Lima Centro,Tienda física,Cuotas
+372,2024-10-05,Auriculares JBL Tune,Audio,8,180.0,5,72.0,1368.0,Sofía Puma,Arequipa,Tienda física,Cuotas
+373,2024-08-26,Auriculares Sony WH-1000,Audio,3,650.0,0,0.0,1950.0,Sofía Puma,Lima Norte,Tienda física,Tarjeta crédito
+374,2024-10-04,Laptop Dell Inspiron,Computadoras,3,2899.0,5,434.85,8262.15,Ana Torres,Lima Sur,Corporativo,Tarjeta crédito
+375,2024-08-31,Tablet Samsung Tab S8,Tablets,1,1850.0,5,92.5,1757.5,Jorge Díaz,Trujillo,E-commerce,Cuotas
+376,2024-03-29,Laptop Lenovo IdeaPad,Computadoras,7,2199.0,0,0.0,15393.0,Carlos Ríos,Lima Este,Tienda física,Tarjeta crédito
+377,2024-04-13,"Monitor LG 24""",Monitores,1,850.0,15,127.5,722.5,Jorge Díaz,Lima Sur,Corporativo,Tarjeta crédito
+378,2024-07-22,Teclado Mecánico HyperX,Periféricos,6,280.0,5,84.0,1596.0,Ana Torres,Lima Sur,E-commerce,Transferencia
+379,2024-03-16,SSD Samsung 1TB,Almacenamiento,1,320.0,5,16.0,304.0,Jorge Díaz,Lima Sur,E-commerce,Tarjeta débito
+380,2024-07-29,MacBook Air M2,Computadoras,2,5999.0,0,0.0,11998.0,Ana Torres,Arequipa,E-commerce,Tarjeta crédito
+381,2024-03-14,Impresora HP LaserJet,Impresoras,8,750.0,5,300.0,5700.0,Carlos Ríos,Lima Este,Tienda física,Tarjeta crédito
+382,2024-08-31,Laptop Dell Inspiron,Computadoras,7,2899.0,0,0.0,20293.0,Elena Cruz,Lima Centro,Tienda física,Cuotas
+383,2024-02-20,Mouse Logitech MX Master,Periféricos,5,220.0,15,165.0,935.0,Pedro Salas,Piura,Corporativo,Cuotas
+384,2024-11-05,UPS APC 1000VA,Energía,8,480.0,10,384.0,3456.0,Elena Cruz,Arequipa,Corporativo,Tarjeta crédito
+385,2024-02-03,Webcam Logitech C920,Periféricos,8,350.0,0,0.0,2800.0,Elena Cruz,Lima Norte,E-commerce,Tarjeta débito
+386,2024-05-07,Laptop Asus VivoBook,Computadoras,1,2350.0,0,0.0,2350.0,Luis Vega,Lima Centro,Tienda física,Efectivo
+387,2024-07-22,Switch Cisco 8 puertos,Redes,4,420.0,10,168.0,1512.0,Pedro Salas,Cusco,E-commerce,Transferencia
+388,2024-10-27,Teclado Logitech MX,Periféricos,6,320.0,5,96.0,1824.0,Sofía Puma,Piura,Tienda física,Tarjeta crédito
+389,2024-03-24,Teclado Mecánico HyperX,Periféricos,2,280.0,15,84.0,476.0,Pedro Salas,Lima Norte,E-commerce,Efectivo
+390,2024-09-19,Teclado Logitech MX,Periféricos,4,320.0,0,0.0,1280.0,María Flores,Arequipa,Corporativo,Tarjeta crédito
+391,2024-11-03,Router TP-Link AX3000,Redes,1,350.0,15,52.5,297.5,Sofía Puma,Lima Este,Corporativo,
+392,2024-05-09,Mouse Logitech MX Master,Periféricos,5,220.0,0,0.0,1100.0,Jorge Díaz,Trujillo,Tienda física,Tarjeta crédito
+393,2024-07-10,Impresora HP LaserJet,Impresoras,7,750.0,5,262.5,4987.5,Ana Torres,Lima Norte,E-commerce,Cuotas
+394,2024-11-23,Mouse Logitech MX Master,Periféricos,2,220.0,0,0.0,440.0,Sofía Puma,Lima Sur,Tienda física,Tarjeta crédito
+395,2024-01-30,Switch Cisco 8 puertos,Redes,5,420.0,15,315.0,1785.0,María Flores,Lima Este,E-commerce,Tarjeta débito
+396,2024-05-31,Auriculares JBL Tune,Audio,6,180.0,0,0.0,1080.0,Luis Vega,Lima Norte,Corporativo,Tarjeta crédito
+397,2024-04-23,UPS APC 1000VA,Energía,1,480.0,10,48.0,432.0,María Flores,Cusco,Corporativo,Cuotas
+398,2024-04-02,Router TP-Link AX3000,Redes,6,350.0,0,0.0,2100.0,Pedro Salas,Lima Este,Corporativo,Transferencia
+399,2024-04-24,Teclado Mecánico HyperX,Periféricos,3,280.0,10,84.0,756.0,Elena Cruz,Lima Sur,Tienda física,Tarjeta crédito
+400,2024-08-28,Mouse Razer DeathAdder,Periféricos,6,180.0,0,0.0,1080.0,Pedro Salas,Arequipa,E-commerce,Efectivo
+401,2024-12-14,Impresora HP LaserJet,Impresoras,2,750.0,5,75.0,1425.0,Sofía Puma,Lima Centro,E-commerce,Efectivo
+402,2024-08-22,"Monitor LG 24""",Monitores,3,850.0,0,0.0,2550.0,María Flores,Cusco,E-commerce,Transferencia
+403,2024-06-09,Laptop Asus VivoBook,Computadoras,2,2350.0,10,470.0,4230.0,Sofía Puma,Cusco,Corporativo,Tarjeta débito
+404,2024-11-10,"Monitor Dell 32"" 4K",Monitores,3,1950.0,5,292.5,5557.5,Luis Vega,Piura,Tienda física,Tarjeta débito
+405,2024-07-10,SSD WD Blue 500GB,Almacenamiento,7,180.0,0,0.0,1260.0,Carlos Ríos,Lima Norte,E-commerce,Tarjeta débito
+406,2024-05-07,Disco Externo Seagate 2TB,Almacenamiento,4,280.0,0,0.0,1120.0,Carlos Ríos,Lima Norte,Corporativo,Cuotas
+407,2024-01-24,"Monitor LG 24""",Monitores,2,850.0,0,0.0,1700.0,Jorge Díaz,Arequipa,Tienda física,Efectivo
+408,2024-07-02,Disco Externo Seagate 2TB,Almacenamiento,6,280.0,15,252.0,1428.0,Jorge Díaz,Lima Este,Tienda física,Tarjeta crédito
+409,2024-04-18,Auriculares JBL Tune,Audio,1,180.0,10,18.0,162.0,María Flores,Lima Centro,Corporativo,
+410,2024-09-30,MacBook Air M2,Computadoras,6,5999.0,5,1799.7,34194.3,Carlos Ríos,Trujillo,Corporativo,Tarjeta crédito
+411,2024-08-01,Router TP-Link AX3000,Redes,2,350.0,5,35.0,665.0,Carlos Ríos,Lima Norte,Corporativo,Efectivo
+412,2024-12-04,SSD WD Blue 500GB,Almacenamiento,3,180.0,0,0.0,540.0,María Flores,Lima Norte,Tienda física,Tarjeta crédito
+413,2024-11-12,Impresora HP LaserJet,Impresoras,3,750.0,0,0.0,2250.0,Jorge Díaz,Lima Sur,E-commerce,Cuotas
+414,2024-07-02,SSD WD Blue 500GB,Almacenamiento,4,180.0,10,72.0,648.0,María Flores,Arequipa,E-commerce,Tarjeta débito
+415,2024-01-02,Tablet Samsung Tab S8,Tablets,8,1850.0,0,0.0,14800.0,María Flores,Piura,Tienda física,Tarjeta débito
+416,2024-02-21,iPad Air,Tablets,8,2999.0,0,0.0,23992.0,Luis Vega,Lima Sur,E-commerce,Efectivo
+417,2024-01-21,Mouse Logitech MX Master,Periféricos,5,220.0,15,165.0,935.0,Sofía Puma,Lima Norte,Tienda física,Tarjeta débito
+418,2024-03-11,Mouse Razer DeathAdder,Periféricos,7,180.0,10,126.0,1134.0,Ana Torres,Lima Sur,Tienda física,Efectivo
+419,2024-02-28,SSD Samsung 1TB,Almacenamiento,5,320.0,5,80.0,1520.0,Ana Torres,Cusco,Tienda física,Tarjeta débito
+420,2024-12-22,Auriculares JBL Tune,Audio,8,180.0,10,144.0,1296.0,Jorge Díaz,Lima Este,Tienda física,Tarjeta débito
+421,2024-08-12,"Monitor Samsung 27""",Monitores,2,1150.0,0,0.0,2300.0,Jorge Díaz,Piura,E-commerce,Cuotas
+422,2024-07-29,Impresora HP LaserJet,Impresoras,1,750.0,5,37.5,712.5,Luis Vega,Piura,E-commerce,Efectivo
+423,2024-12-18,Mouse Razer DeathAdder,Periféricos,1,180.0,10,18.0,162.0,María Flores,Cusco,E-commerce,Transferencia
+424,2024-11-24,UPS APC 1000VA,Energía,4,480.0,5,96.0,1824.0,Sofía Puma,Cusco,Corporativo,Cuotas
+425,2024-09-10,Impresora HP LaserJet,Impresoras,1,750.0,15,112.5,637.5,Carlos Ríos,Lima Este,E-commerce,Tarjeta crédito
+426,2024-04-24,Mouse Razer DeathAdder,Periféricos,4,180.0,5,36.0,684.0,Elena Cruz,Arequipa,Tienda física,Transferencia
+427,2024-02-15,Teclado Logitech MX,Periféricos,2,320.0,15,96.0,544.0,Sofía Puma,Piura,E-commerce,Tarjeta crédito
+428,2024-10-12,SSD WD Blue 500GB,Almacenamiento,1,180.0,5,9.0,171.0,Ana Torres,Trujillo,E-commerce,
+429,2024-01-28,Impresora HP LaserJet,Impresoras,5,750.0,15,562.5,3187.5,María Flores,Piura,Tienda física,Tarjeta crédito
+430,2024-12-03,Tablet Samsung Tab S8,Tablets,8,1850.0,0,0.0,14800.0,Elena Cruz,Piura,Tienda física,
+431,2024-09-09,Impresora Epson EcoTank,Impresoras,5,580.0,0,0.0,2900.0,Elena Cruz,Lima Sur,Tienda física,Tarjeta débito
+432,2024-07-20,Webcam Logitech C920,Periféricos,2,350.0,0,0.0,700.0,Pedro Salas,Lima Centro,Tienda física,Efectivo
+433,2024-12-10,Switch Cisco 8 puertos,Redes,6,420.0,5,126.0,2394.0,Ana Torres,Trujillo,Tienda física,Cuotas
+434,2024-01-25,SSD Samsung 1TB,Almacenamiento,3,320.0,5,48.0,912.0,Sofía Puma,Lima Norte,E-commerce,Cuotas
+435,2024-12-02,SSD WD Blue 500GB,Almacenamiento,3,180.0,5,27.0,513.0,Luis Vega,Lima Este,Tienda física,Tarjeta crédito
+436,2024-05-30,Auriculares JBL Tune,Audio,7,180.0,5,63.0,1197.0,María Flores,Arequipa,E-commerce,Tarjeta crédito
+437,2024-11-15,Impresora HP LaserJet,Impresoras,5,750.0,10,375.0,3375.0,Elena Cruz,Lima Centro,Tienda física,Tarjeta débito
+438,2024-06-29,Router TP-Link AX3000,Redes,3,350.0,5,52.5,997.5,Luis Vega,Cusco,Corporativo,Efectivo
+439,2024-02-24,Router TP-Link AX3000,Redes,7,350.0,0,0.0,2450.0,Pedro Salas,Trujillo,Tienda física,Transferencia
+440,2024-05-08,Laptop Dell Inspiron,Computadoras,4,2899.0,0,0.0,11596.0,Pedro Salas,Lima Este,Tienda física,Cuotas
+441,2024-11-11,Mouse Logitech MX Master,Periféricos,4,220.0,15,132.0,748.0,Carlos Ríos,Cusco,E-commerce,Efectivo
+442,2024-01-25,Teclado Logitech MX,Periféricos,7,320.0,5,112.0,2128.0,María Flores,Arequipa,Corporativo,Cuotas
+443,2024-04-13,Router TP-Link AX3000,Redes,6,350.0,5,105.0,1995.0,Carlos Ríos,Lima Norte,Corporativo,Tarjeta crédito
+444,2024-05-30,SSD Samsung 1TB,Almacenamiento,4,320.0,5,64.0,1216.0,Elena Cruz,Lima Centro,Corporativo,Tarjeta débito
+445,2024-05-22,"Monitor Samsung 27""",Monitores,3,1150.0,5,172.5,3277.5,Ana Torres,Trujillo,Tienda física,Tarjeta crédito
+446,2024-01-21,Teclado Mecánico HyperX,Periféricos,1,280.0,0,0.0,280.0,Elena Cruz,Piura,Corporativo,Tarjeta débito
+447,2024-06-11,Laptop Asus VivoBook,Computadoras,5,2350.0,5,587.5,11162.5,Sofía Puma,Cusco,Tienda física,Cuotas
+448,2024-04-23,Laptop Lenovo IdeaPad,Computadoras,3,2199.0,0,0.0,6597.0,Jorge Díaz,Trujillo,Tienda física,Tarjeta crédito
+449,2024-06-26,Mouse Logitech MX Master,Periféricos,4,220.0,5,44.0,836.0,Sofía Puma,Lima Norte,Tienda física,Cuotas
+450,2024-07-16,Impresora HP LaserJet,Impresoras,4,750.0,0,0.0,3000.0,Carlos Ríos,Cusco,E-commerce,Efectivo
+451,2024-11-29,Disco Externo Seagate 2TB,Almacenamiento,6,280.0,0,0.0,1680.0,Sofía Puma,Piura,Tienda física,Tarjeta crédito
+452,2024-11-18,MacBook Air M2,Computadoras,3,5999.0,15,2699.55,15297.45,Carlos Ríos,Lima Sur,Tienda física,Cuotas
+453,2024-03-19,MacBook Air M2,Computadoras,4,5999.0,0,0.0,23996.0,Jorge Díaz,Lima Sur,Corporativo,Cuotas
+454,2024-02-06,Laptop Lenovo IdeaPad,Computadoras,2,2199.0,5,219.9,4178.1,Carlos Ríos,Lima Este,Tienda física,Transferencia
+455,2024-01-09,Webcam Logitech C920,Periféricos,7,350.0,5,122.5,2327.5,Sofía Puma,Trujillo,E-commerce,Tarjeta crédito
+456,2024-02-24,Impresora Epson EcoTank,Impresoras,2,580.0,0,0.0,1160.0,Carlos Ríos,Lima Sur,Tienda física,Transferencia
+457,2024-01-16,Laptop Lenovo IdeaPad,Computadoras,5,2199.0,5,549.75,10445.25,Sofía Puma,Trujillo,E-commerce,Cuotas
+458,2024-11-27,UPS APC 1000VA,Energía,7,480.0,0,0.0,3360.0,,Lima Este,Tienda física,Cuotas
+459,2024-11-01,Tablet Samsung Tab S8,Tablets,3,1850.0,5,277.5,5272.5,Ana Torres,Lima Norte,Tienda física,Transferencia
+460,2024-09-19,Mouse Logitech MX Master,Periféricos,4,220.0,0,0.0,880.0,Elena Cruz,Lima Centro,E-commerce,Cuotas
+461,2024-01-28,Teclado Mecánico HyperX,Periféricos,4,280.0,15,168.0,952.0,Ana Torres,Lima Este,Corporativo,Transferencia
+462,2024-05-08,Tablet Samsung Tab S8,Tablets,8,1850.0,0,0.0,14800.0,Ana Torres,Arequipa,Corporativo,Efectivo
+463,2024-11-13,Mouse Razer DeathAdder,Periféricos,6,180.0,0,0.0,1080.0,Luis Vega,Lima Centro,Tienda física,Tarjeta crédito
+464,2024-07-05,SSD Samsung 1TB,Almacenamiento,6,320.0,15,288.0,1632.0,Pedro Salas,Lima Este,E-commerce,Transferencia
+465,2024-11-24,Laptop HP 15,Computadoras,6,2499.0,5,749.7,14244.3,María Flores,Lima Centro,Corporativo,Cuotas
+466,2024-06-05,Router TP-Link AX3000,Redes,6,350.0,5,105.0,1995.0,Sofía Puma,Piura,E-commerce,Tarjeta crédito
+467,2024-05-14,Impresora HP LaserJet,Impresoras,2,750.0,10,150.0,1350.0,Pedro Salas,Lima Este,E-commerce,Tarjeta débito
+468,2024-01-19,Laptop Lenovo IdeaPad,Computadoras,1,2199.0,5,109.95,2089.05,Carlos Ríos,Trujillo,E-commerce,Tarjeta débito
+469,2024-10-28,Tablet Samsung Tab S8,Tablets,8,1850.0,10,1480.0,13320.0,Luis Vega,Cusco,E-commerce,Tarjeta débito
+470,2024-12-05,Disco Externo Seagate 2TB,Almacenamiento,2,280.0,0,0.0,560.0,Jorge Díaz,Cusco,E-commerce,Efectivo
+471,2024-10-16,Impresora HP LaserJet,Impresoras,3,750.0,5,112.5,2137.5,Luis Vega,Piura,Tienda física,Tarjeta débito
+472,2024-04-28,UPS APC 1000VA,Energía,8,480.0,0,0.0,3840.0,Elena Cruz,Lima Norte,Tienda física,Tarjeta crédito
+473,2024-01-24,Router TP-Link AX3000,Redes,4,350.0,0,0.0,1400.0,Elena Cruz,Trujillo,E-commerce,Tarjeta crédito
+474,2024-07-12,Switch Cisco 8 puertos,Redes,5,420.0,0,0.0,2100.0,Pedro Salas,Lima Este,E-commerce,Cuotas
+475,2024-06-29,Laptop Lenovo IdeaPad,Computadoras,5,2199.0,15,1649.25,9345.75,Jorge Díaz,Lima Centro,E-commerce,Tarjeta crédito
+476,2024-02-09,SSD WD Blue 500GB,Almacenamiento,1,180.0,5,9.0,171.0,Luis Vega,Piura,Tienda física,Tarjeta débito
+477,2024-07-31,"Monitor Samsung 27""",Monitores,3,1150.0,15,517.5,2932.5,Elena Cruz,Lima Sur,Corporativo,Tarjeta débito
+478,2024-11-27,Router TP-Link AX3000,Redes,8,350.0,15,420.0,2380.0,Sofía Puma,Lima Centro,E-commerce,Tarjeta débito
+479,2024-01-29,"Monitor LG 24""",Monitores,3,850.0,0,0.0,2550.0,Luis Vega,Lima Norte,E-commerce,Tarjeta débito
+480,2024-11-06,Auriculares JBL Tune,Audio,1,180.0,5,9.0,171.0,Pedro Salas,Lima Sur,Tienda física,Tarjeta crédito
+481,2024-12-17,Webcam Logitech C920,Periféricos,3,350.0,0,0.0,1050.0,Luis Vega,Arequipa,Tienda física,Cuotas
+482,2024-01-09,Laptop Lenovo IdeaPad,Computadoras,4,2199.0,0,0.0,8796.0,Jorge Díaz,Trujillo,Tienda física,Efectivo
+483,2024-11-10,Router TP-Link AX3000,Redes,7,350.0,5,122.5,2327.5,Luis Vega,Lima Sur,Tienda física,Tarjeta crédito
+484,2024-11-04,Disco Externo Seagate 2TB,Almacenamiento,2,280.0,5,28.0,532.0,Ana Torres,Piura,Corporativo,Tarjeta débito
+485,2024-09-28,Laptop Asus VivoBook,Computadoras,7,2350.0,5,822.5,15627.5,Jorge Díaz,Cusco,Tienda física,Cuotas
+486,2024-05-10,Laptop Asus VivoBook,Computadoras,7,2350.0,5,822.5,15627.5,Elena Cruz,Lima Sur,E-commerce,Tarjeta débito
+487,2024-12-29,Laptop Lenovo IdeaPad,Computadoras,5,2199.0,10,1099.5,9895.5,Jorge Díaz,Arequipa,Tienda física,Efectivo
+488,2024-07-28,MacBook Air M2,Computadoras,1,5999.0,0,0.0,5999.0,Jorge Díaz,Lima Centro,Corporativo,Tarjeta crédito
+489,2024-11-09,iPad Air,Tablets,5,2999.0,0,0.0,14995.0,Pedro Salas,Trujillo,E-commerce,Tarjeta crédito
+490,2024-10-11,"Monitor Dell 32"" 4K",Monitores,7,1950.0,5,682.5,12967.5,Sofía Puma,Lima Este,Tienda física,Transferencia
+491,2024-08-16,Auriculares Sony WH-1000,Audio,7,650.0,15,682.5,3867.5,Luis Vega,Lima Sur,Corporativo,Tarjeta débito
+492,2024-11-21,"Monitor Dell 32"" 4K",Monitores,7,1950.0,0,0.0,13650.0,Elena Cruz,Lima Norte,Tienda física,Tarjeta crédito
+493,2024-07-08,SSD WD Blue 500GB,Almacenamiento,7,180.0,0,0.0,1260.0,Ana Torres,Lima Sur,Tienda física,Tarjeta débito
+494,2024-08-12,Auriculares JBL Tune,Audio,5,180.0,0,0.0,900.0,Carlos Ríos,Lima Este,Corporativo,Tarjeta crédito
+495,2024-09-21,Disco Externo Seagate 2TB,Almacenamiento,5,280.0,10,140.0,1260.0,María Flores,Lima Norte,E-commerce,Transferencia
+496,2024-05-21,Laptop Dell Inspiron,Computadoras,6,2899.0,15,2609.1,14784.9,María Flores,Lima Norte,Tienda física,Efectivo
+497,2024-05-25,Auriculares JBL Tune,Audio,4,180.0,10,72.0,648.0,Carlos Ríos,Lima Sur,Tienda física,Transferencia
+498,2024-08-20,Auriculares Sony WH-1000,Audio,6,650.0,5,195.0,3705.0,Pedro Salas,Lima Centro,E-commerce,Tarjeta débito
+499,2024-09-19,Webcam Logitech C920,Periféricos,2,350.0,0,0.0,700.0,Ana Torres,Arequipa,Tienda física,Efectivo
+500,2024-05-04,iPad Air,Tablets,5,2999.0,15,2249.25,12745.75,Sofía Puma,Trujillo,E-commerce,Tarjeta crédito
